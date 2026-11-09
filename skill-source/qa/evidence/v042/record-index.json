@@ -1,0 +1,289 @@
+[
+  {
+    "raw_record": "candidate-next-X1.md",
+    "raw_sha256": "9ceca7a3812e87522dea86c8e3abb867c5faa1b6feac12b3d26a3d0913ad9395",
+    "public_record": "regression-next-X1.md",
+    "public_sha256": "26ef9dfe9de558f73687fdf2289b3da58ea4cdb1372af3ed86d970201e1616ab",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "candidate-next-X2.md",
+    "raw_sha256": "732420abae8e50c6cbac20bce358969f203c4389d4d7466f1ab548844966974b",
+    "public_record": "regression-next-X2.md",
+    "public_sha256": "f977fd5186d346ef4b003fc5db7760bce34c9ab314ef52f9312c02dbbdfe6e90",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "candidate-next-X3.md",
+    "raw_sha256": "9f7fc979b88b7e467982826dacc46d211e34ab66656c6b06da60d73649b9fab4",
+    "public_record": "regression-next-X3.md",
+    "public_sha256": "946c0f3617eb83e66307410c573a1361d1dadacae5ae81072267171217e0cc33",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "candidate-next-X4.md",
+    "raw_sha256": "671d3ee612e677846f4f293184a14f493798657cbdee845f4a69887d99ca97dc",
+    "public_record": "regression-next-X4.md",
+    "public_sha256": "9f8a7cd6e1ef88e547c9d53cd73c44ce2d5a855072c1f8347f41d7a87b7f5ee0",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-knowledge-K2.md",
+    "raw_sha256": "6f04cd53bd0957ad9d58f74f9099ee98e9f125df66e5a3dc33e3ce26296c40a8",
+    "public_record": "regression-knowledge-K2.md",
+    "public_sha256": "8fe0ca0d0f324b0602d48289a4569cfd06c4a3b5b2ba2b1cc1990dd2ab5b704b",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-knowledge-K3.md",
+    "raw_sha256": "2d4cff983f003bc98a8dfe44df9f9444532c4c479dc4c1b939eb374c2d7a0bfb",
+    "public_record": "regression-knowledge-K3.md",
+    "public_sha256": "624371bdcddd6f5cda6b93494fec08862c007f06ebde55eb2381428e865243b6",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-knowledge-K4.md",
+    "raw_sha256": "c4c2d96290bbc48c03eaa99a357b7fb322eb65ccf271ff271fdae36a80ca15ec",
+    "public_record": "regression-knowledge-K4.md",
+    "public_sha256": "128af049101f136ec5448ba54bac2457469ababd239b49eb2f22a202bdccfef1",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-knowledge-K5.md",
+    "raw_sha256": "e5f13f070f3e22a205619ad6f84ef5b4f6aa449f35e8e09fc3d34fb81c69d4c5",
+    "public_record": "regression-knowledge-K5.md",
+    "public_sha256": "36495500adcaeef603ea1b51db496eb4b3eca114f696c76ba46e5383fb1b0ddb",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-deal-Q1.md",
+    "raw_sha256": "985568ce4e9dd85c165d2565e9892ccd27526ede6fd47504160c8a3ec0261cc3",
+    "public_record": "regression-deal-Q1.md",
+    "public_sha256": "cc490700afe387f6e5c376657e9107d86ddf203f704160b9ee9c880b9434bdf7",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-deal-Q2.md",
+    "raw_sha256": "0ac4843b350db0bf7956fc39d4e8764cb8afce45b859787a6d948ec59a49524c",
+    "public_record": "regression-deal-Q2.md",
+    "public_sha256": "2b830593bed7abe1e447efda118d7037c76f60693c3e9c8d9253979ff751ee34",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-deal-L1.md",
+    "raw_sha256": "9a573fe1b2fc74d74457155b474d1c42a0f79f0e87e213c06f34dea695ba5085",
+    "public_record": "regression-deal-L1.md",
+    "public_sha256": "8dbbf9093290114de7f143506831512788e6c718f116f00daf1d92ef0b12d489",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-deal-L2.md",
+    "raw_sha256": "3e2ccf7387f07999f92ed82bee0b581850115743d304c639bc13284ecde19c2c",
+    "public_record": "regression-deal-L2.md",
+    "public_sha256": "88d26cbd90cb8da4cae624c405dae9bf26486927e92e39d30ffe0c56d8bafff0",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-poc-I1.md",
+    "raw_sha256": "ab8a733d73a37bebdb0b3aeef702bcc9531647b1c8a481f3036372fef85577b7",
+    "public_record": "regression-poc-I1.md",
+    "public_sha256": "38b4c136d4ff361c9e385aa8ecb226b77a9318acb42d1ff10dac9eccc883c16e",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-poc-I2.md",
+    "raw_sha256": "ab3312e8e9dce6325d2c565241ef5f7c4641bfef90b563efe2a2137bd470f7f4",
+    "public_record": "regression-poc-I2.md",
+    "public_sha256": "20a7ebd8df158ccf56c888ae9f4dc21847f9f9c375cf7ea4dce1bc6510b3e004",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-run-R1.md",
+    "raw_sha256": "8c31014bf5c0b7a60f139f087ff30583514a92d14ea7fd8b95365729119b0f38",
+    "public_record": "regression-run-R1.md",
+    "public_sha256": "115936bb689935b068779193a695d2f3e08cb89cc075ae6d93fec83ea38000b7",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-run-R2.md",
+    "raw_sha256": "43ae31996e839dd12b7ffcc09c843c5ae192fe0fb07d4eec2b540040291546e1",
+    "public_record": "regression-run-R2.md",
+    "public_sha256": "185cf471e576976ed4d517ae30e1e93f715a98a4f741b11d8fa94aee061dd716",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-run-E1.md",
+    "raw_sha256": "4b578459fb199dae23272591e25f739e4dbecc8cce8522488253bf6fdb6e106b",
+    "public_record": "regression-run-E1.md",
+    "public_sha256": "3180419967bd76e3c565cc985b23a0edf77a2a14e80685ff5671a2ab6d0981a8",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-code-C1.md",
+    "raw_sha256": "6c51b8ac0b9db8520832d8bd44b5969be366c576e94616978f3a6d63f393294e",
+    "public_record": "regression-code-C1.md",
+    "public_sha256": "5ed8eaede9a1c3d45783aa9a942eeb1bf4aadb1b4393e6a487a863ac0839f157",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-code-C2.md",
+    "raw_sha256": "b9757ce9712b26f0e526a8104f0861cc14010472bf206e9cd8ffea638c22cf63",
+    "public_record": "regression-code-C2.md",
+    "public_sha256": "93ebb871122a2e774bbcc31e320adc5c139486191d286f7f8f703c87234f8f8d",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-code-E1.md",
+    "raw_sha256": "54f9574bd8b098cac9857b4f4bf874326913a811d3a29dae2c47894d1727b795",
+    "public_record": "regression-code-E1.md",
+    "public_sha256": "e60fb529e00e239539eb3cb5c592d1ccf5370bf0f6a051b819e1c800fc8da102",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-X1.md",
+    "raw_sha256": "1e9af56f51d0aa6f58bd893a495246d8d40d4564e1a001f4470004ab4c1d7c49",
+    "public_record": "regression-total-X1.md",
+    "public_sha256": "98cbbf31aa7edf924a3ebb1f79c8a4e4dc252a45800710592a42f11b3e809a59",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-X2.md",
+    "raw_sha256": "f07206a46a230bef39f9e56c9cf65d962925f49912843c71cb325dea668b1320",
+    "public_record": "regression-total-X2.md",
+    "public_sha256": "29d419e818d513f7818d37a8c51cc82aefab20215fb300e690b64461e534d226",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-X3.md",
+    "raw_sha256": "ba852b065bbd87e5c0747f016de18c1906e1b387f0df6564726c4f2697a3797a",
+    "public_record": "regression-total-X3.md",
+    "public_sha256": "edbbc4389454cfffd6aca6af6cf6d517b696404e58e398055ad3bf01e31911e3",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-X4.md",
+    "raw_sha256": "3fea3c9a4eb2427793621fc733debc9c8935f5a55052348a4255e2a3e3060d2c",
+    "public_record": "regression-total-X4.md",
+    "public_sha256": "eaab3d58d3ae164a7fd572eea907656ba45d0e62faf913f2f6263b2fd5b27247",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-Q1.md",
+    "raw_sha256": "da2eb8ecf8c7446fe60e2401096460ff3f32fe2a8d0e3fd42149eb42744055eb",
+    "public_record": "regression-total-Q1.md",
+    "public_sha256": "28909ca9d03e27663751c8311d4505b6a782d6f1fcf63bc76ee5d78945f8703c",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-Q2.md",
+    "raw_sha256": "79d420509504040d55c74787e01cd52a8e9b449542b7eb1a0bdfeb46eebeaf97",
+    "public_record": "regression-total-Q2.md",
+    "public_sha256": "82273981920f0ef0380fa9bf0d8d57defc5aa20802280e3dd73f60927d07751e",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-L1.md",
+    "raw_sha256": "460b693770a8c33d431de1190e4dc251c0dae84ce3dc8f92976ff4803d8a9fc1",
+    "public_record": "regression-total-L1.md",
+    "public_sha256": "1a5a1a0c967fc15d287636e161de8bbef6ab6f61040348eba4f899c03ce06c83",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-L2.md",
+    "raw_sha256": "c17903e2aca177e96b272074a0551c66da8fa3b2a76c1f75a9e2b3beae03a59a",
+    "public_record": "regression-total-L2.md",
+    "public_sha256": "13ffee0b58fe9e8f9afb4cbe1de948ba94c416b4bc5300bb980fbf830366e8eb",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-K1.md",
+    "raw_sha256": "53a7d565a65c6da4207df4994d361bbf65444347c260581653f35a7a2e20e6fb",
+    "public_record": "regression-total-K1.md",
+    "public_sha256": "676f0a23766ab9f21484a11eb0f109299ebade17b38b0b93e5f9652448281d55",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-R1.md",
+    "raw_sha256": "321bdc22c743669f867eb2b37e30c0fb1ee6a3f6843866c8e5c0fb4474846a93",
+    "public_record": "regression-total-R1.md",
+    "public_sha256": "adc7e5b78d0ea1a4ee6894bffa10ba8d6cc20ff60cb0f82db206324006970d1b",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-R2.md",
+    "raw_sha256": "df9d72f4254acc4fdc23ac82d24ecb194787d374352afcb5211ea6b4748f084c",
+    "public_record": "regression-total-R2.md",
+    "public_sha256": "4f47ef014005490c4f87d36bf4e0f52cd92f8246406b106d019cc0b1a1c84aeb",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-D1.md",
+    "raw_sha256": "07ddb9f86ed6d23257091a93967bb3e159f9af989a753742957ce1be780af975",
+    "public_record": "regression-total-D1.md",
+    "public_sha256": "b5003b1fa268e3c07ef010ab82bbbde70e979b06705c9872d4195da9d7a88200",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-I1.md",
+    "raw_sha256": "9a872433037324a125a2aa44fc36f1df2d194c3ba2d224e313479e113393cdaa",
+    "public_record": "regression-total-I1.md",
+    "public_sha256": "1710aef7b2fba34a4f5f898debb380f7809b1721ecc472a11766264e19aedbe2",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-I2.md",
+    "raw_sha256": "1c7bdf6cd8db7599d4997fe154b97d81c14a4a659238430384f8f98c64e4cd6b",
+    "public_record": "regression-total-I2.md",
+    "public_sha256": "ce73f987f23758d9524fbc47e61d11bdceace37960e59b74b553989762749544",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-K2.md",
+    "raw_sha256": "4522407b101ba2ac6c1ad47da610f4aa20e4acb6918724f75b0c145b34ea4fe7",
+    "public_record": "regression-total-K2.md",
+    "public_sha256": "60e9324f0666673dd59354228e113904e49888ffbb3d16c59a00e1641d827ea5",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-K3.md",
+    "raw_sha256": "5ca9e04eeb15cf7bf5b0d0416185b4ea5b7b25f9b301ed5240a2c9fba3929247",
+    "public_record": "regression-total-K3.md",
+    "public_sha256": "1af793be433ba95ca262e2ae4c47efdf9e20c444f353e927bb88c61ae8918af7",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-K4.md",
+    "raw_sha256": "dfa7e369d6414f9bd41d533c24b7fcd908a3cb4a4288978348c863a60deac7c0",
+    "public_record": "regression-total-K4.md",
+    "public_sha256": "03250eb41725d3c826f43fea69469ac85b07ed62a1b7dd89585af986e3e23114",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-K5.md",
+    "raw_sha256": "73444f75a82674fd21ed5534fd2debb89988ad93e16db3c02ec362b79e0b0938",
+    "public_record": "regression-total-K5.md",
+    "public_sha256": "9a96af2d498526d1c3cb73a94c54acda6b14e90ccd8f78c672fa650d9eada3e2",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-E1.md",
+    "raw_sha256": "212e6a197e5adde622df3f734b8f10650efc0cbb27471a62fa932c08a8a38cf5",
+    "public_record": "regression-total-E1.md",
+    "public_sha256": "1770a0ce5693f4dcc321472475aa3968ae3cac0fba7e57c441cf67481d33d68c",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-C1.md",
+    "raw_sha256": "fd0407f8e282116a87a5d86994f572407789874359eb0f0ca95bc9282c15de0a",
+    "public_record": "regression-total-C1.md",
+    "public_sha256": "18ac6b9a944aae03c5857020592659d8164632a70cc3005bb1f7748ff7d2d551",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  },
+  {
+    "raw_record": "final-total-C2.md",
+    "raw_sha256": "24a0e1cdf10e4793158cdc46cd29be0774e8a44371315c425e460abdd66f98f6",
+    "public_record": "regression-total-C2.md",
+    "public_sha256": "e4205e275828040adc1323e3df193d296f32268e643a3087eaf856cce3f16c53",
+    "path_normalization": "Only displayed executor/package/fixture paths were normalized; business prompts and responses were preserved. Synthetic fixture appendices are marked separately."
+  }
+]

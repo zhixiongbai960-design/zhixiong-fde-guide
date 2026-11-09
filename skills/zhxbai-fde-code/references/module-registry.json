@@ -18,7 +18,7 @@
       "method_file": "engineering.md",
       "name": "zhxbai-fde-code",
       "title": "应用工程检查",
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "articles": [
@@ -52,7 +52,7 @@
       "method_file": "operate.md",
       "name": "zhxbai-fde-run",
       "title": "运行与复用",
-      "version": "0.4.1"
+      "version": "0.4.2"
     }
   ]
 }

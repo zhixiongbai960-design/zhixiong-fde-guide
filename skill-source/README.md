@@ -1,6 +1,6 @@
 # 志雄 FDE Skills：单一源码与独立模块
 
-志亚科技出品 · 作者：白志雄。版本0.4.1（角色与来源候选，待评估）。
+志亚科技出品 · 作者：白志雄。版本0.4.2。已完成本次受影响模块与总入口的合成行为回归；详情见[0.4.2验证记录](docs/v0.4.2-validation.md)。
 
 ## 公开角色与来源
 
@@ -12,7 +12,7 @@
 
 ## 给维护者
 
-唯一权威方法在 src/methods/，名称/描述/资料依赖在 src/registry.json。src/guide/保留用户指南完整文字；src/total-SKILL.md和project-navigation.md只负责总入口路由。
+唯一权威方法在 src/methods/，名称/描述/资料依赖在 src/registry.json。src/guide/保留用户指南完整文字；src/total-SKILL.md维护总入口角色与行为，project-navigation.md负责问题路由。
 
 请修改权威源，不直接手改已生成的dist或GitHub分发目录。小模块改动不即时改变已安装总包；通过受影响模块回归后重新构建，才产生新的总包快照。旧总包在替换前继续原样使用，不宣称自动更新。
 
@@ -38,4 +38,4 @@
 
 ## 验证记录的版本
 
-qa/evidence/total-final-review.md是0.4.0历史终审，不冒充0.4.1。新候选的来源包装迁移与角色行为结果另行记录；未经检查不得只换哈希就沿用通过。
+qa/evidence/total-final-review.md是0.4.0历史终审，0.4.1来源迁移记录也只对应当时版本。本次0.4.2仅重测受影响的knowledge、next、deal、poc、run、code及总入口；其余12个独立包逐字节保持0.4.1，沿用明确标注的历史证据。未经检查不得只换哈希就沿用通过。

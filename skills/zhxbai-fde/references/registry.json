@@ -1,5 +1,5 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "白志雄 / 志亚科技",
   "modules": [
     {
@@ -24,7 +24,7 @@
         "fde_19.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "review",
@@ -189,7 +189,7 @@
       "dependencies": [
         "deal"
       ],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "team",
@@ -222,7 +222,7 @@
         "fde_29.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "run",
@@ -238,7 +238,7 @@
         "fde_31.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "next",
@@ -253,7 +253,7 @@
         "fde_32.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "code",
@@ -273,7 +273,7 @@
         "run",
         "deliver"
       ],
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "id": "doc",
