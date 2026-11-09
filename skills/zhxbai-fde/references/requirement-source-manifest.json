@@ -1,0 +1,26 @@
+{
+  "repo": "zhixiongbai960-design/requirement-analysis",
+  "commit": "e5e5e92588a133ed868f6ce24927d4455ee81fc2",
+  "files": {
+    "SKILL.md": {
+      "sha256": "9b80abe5fad3a6f8cd84d8d54345b4f7d3a330e3aac7d58299e2eac40aced5f8",
+      "git_blob_sha1": "79d9d53cc830e18663fbb4d308ab3df21e84668d"
+    },
+    "LICENSE": {
+      "sha256": "e4c8db8dcba18cf7d05bf599f2638c3880fd9e95fdd49ed58750cfd5d78a9dee",
+      "git_blob_sha1": "d267777616d3f9c806da764bf7ca1389b9e7ad33"
+    },
+    "licenses/legacy_readme.md": {
+      "sha256": "427b409462bef10fef7cbed1c57ee5c7f6f9555317c6a797463867b432a765dd",
+      "git_blob_sha1": "2b78ab2cb4ef8ba44e2979defda49a3d59b5133a"
+    },
+    "licenses/legacy_notice.md": {
+      "sha256": "35f307f537a348f8c424db997151785a919f9e7d8518a4bbbe6b84620bbd9f50",
+      "git_blob_sha1": "94019348df0eecf604ae4d11da743dbd596ec7f9"
+    },
+    "references/mvp-spec.md": {
+      "sha256": "7269fefad5a9167802578956a2dc851cab4269428a86312f02820409edbb115e",
+      "git_blob_sha1": "3216b278237054510a644c89a71d183896607588"
+    }
+  }
+}

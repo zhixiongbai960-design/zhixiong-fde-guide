@@ -1,0 +1,236 @@
+{
+  "source_commit": "50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5",
+  "articles": [
+    {
+      "article": "fde_01.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_01.md",
+      "source_sha256": "1f8f77e39f40e915fc03f637e33cabad35ae408699bc7892c8cbf7a5ad7dcbd0",
+      "packaged_sha256": "c6ec6dd5d3c77293895b4dc1dfeeed5d765e9cb35355f21eac16e1dae7e73575",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_02.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_02.md",
+      "source_sha256": "feb467aaf7369fd99bdc1d1ece06224d4f091bbb5686469062a97e177ca02486",
+      "packaged_sha256": "5b9a22b46339d026b212ef576e214736f9d221b508733791e8eda06733bf3bdf",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_03.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_03.md",
+      "source_sha256": "8570cb49c270784834a0f2c29125532f320ef611a146d308f3c862ee411ac467",
+      "packaged_sha256": "aab100674de7cb7517dc53871b7cc90b11a5bfa127cd0202cbac61ed872dcd79",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_04.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_04.md",
+      "source_sha256": "029ce50b6dc3dd3096989dc08bed1ec6e04c1e5ec8b22cd8cf9a02492f2c04b2",
+      "packaged_sha256": "4bb8a09f55135d97dccafbec54b4db7e6e20066020ea78b017d732a2288697c5",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_05.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_05.md",
+      "source_sha256": "d58836ec1094acec4097396b9959f0c2c892d19bf4f8de9aacdf10125ce83e91",
+      "packaged_sha256": "8a95c430d573d3a665e0ecf6bc86f879c1f664d2722fd8ff3aca80ffeb9ee248",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_05_extra.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_05_extra.md",
+      "source_sha256": "da5630e334ddea71a0107c73bd5a3edc7e603fb2cd2748a659a547ddc662af08",
+      "packaged_sha256": "bd3f1cc454053c1f1d0d44760f42dc8c66a7f56283789bfa3d32eca4724f2939",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_06.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_06.md",
+      "source_sha256": "5adb87165e1a33646a46cd670a760df7b03fa074488b1b4387a96bb5f2032d88",
+      "packaged_sha256": "1042a4d495476ac564e6f84b3a5dc4ae42ddbe01bdd9544c1b3fbb4011999997",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_07.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_07.md",
+      "source_sha256": "a5f96ba1b4149649e134f6729e99c66cda57adf7120b291856a190d1e5d2bda2",
+      "packaged_sha256": "d1a569f3ce5d6790096c20cbc9fd2cd9d4540b6f7da45dec6af17a54755396a3",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_08.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_08.md",
+      "source_sha256": "8334220c944e530f8baf9fe3cd6740c3cbe801491627dcccf02ffeb0d97828c8",
+      "packaged_sha256": "6a6d21e984fa368ad6b7265f4c6791526a27a031702d1c5acb8dfc6753889add",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_09.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_09.md",
+      "source_sha256": "85bd24d213789b450872bf3a1bcc067a9a20f0ff474cd5c63e507db6757e3402",
+      "packaged_sha256": "2c947e5477f595a21e2c40a1f4569ff3dba44988315aadc2b42ba00c798179af",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_10.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_10.md",
+      "source_sha256": "a5a364d80132c31469112a29acadedd714d500836f9380c3add4fac58f21598f",
+      "packaged_sha256": "ab267c32240e45aef2570ff6505b42149948cdb4749ff4ce200915513aa91a17",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_11.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_11.md",
+      "source_sha256": "009a3d57c64d0f21528aac5b9c56d0fae915877e482f845081cb4f8d1d2119f7",
+      "packaged_sha256": "246daf444c79a8f38d4205c79eb6da6a6b173bf006bdeb932ccd270b1281dee8",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_12.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_12.md",
+      "source_sha256": "5328f76e0852274084ea0ea179a1976b96bfeb8f6b503747528f391bfed0227e",
+      "packaged_sha256": "b2b155a74bae2f5cd510822085b677af8730a14254fd74d571f4d28dc37cf2ca",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_13.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_13.md",
+      "source_sha256": "ead6cc03918ba8c2fa2b71895be4041f05a66a3cf1b3c5e9e16f8ad6d4841681",
+      "packaged_sha256": "77858416c564148883c3b768ed8dc3cd51837212a1dda1e712ddf9448fdf3bfe",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_14.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_14.md",
+      "source_sha256": "a4ee2def35ea048fe64c3d346d3b0659f268e15e403edac5a1659b53a7b8b251",
+      "packaged_sha256": "94db12c6838af018cd69acd776b6cb47b397e0b8085f8d1ea5dc05adb8d31ffa",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_15.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_15.md",
+      "source_sha256": "6b86d00e1a8a81b84cac3792918a1b9bdcdca529e982b8f8a34fc1328acf4020",
+      "packaged_sha256": "512b5262acbbc8a50bf330ae3ceeaec1082b0e59ccd5d84b89d84151ae919df9",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_16.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_16.md",
+      "source_sha256": "d5cccb918ac746bd54b5b0978ab16925fd6d500472e2ed8b6690c4c04146a197",
+      "packaged_sha256": "5bfeec55845abcda8e0ba9355c892cc33682d81806af6648db3325dd266bb8e0",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_17.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_17.md",
+      "source_sha256": "95549e9a83c2ae496fec5b77f9d3d3c236cc2cf2422065eef6fa35ba9ff816d4",
+      "packaged_sha256": "ed7772ef430a9bc169049faa3041cdc0913bbbe0578ac7498016c37336cc34ef",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_18.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_18.md",
+      "source_sha256": "e57481b28335c1b4a0dd0052e1ce0b62abce8bf628065cfc98d42a36d80e4632",
+      "packaged_sha256": "9ba735ba9a1d6d66d9c7c32988b0942361fee6dca1ddd9e6949653a806f35e9c",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_19.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_19.md",
+      "source_sha256": "913cfd71886aebca967d3cbeeb16379fdb4565f210376dde0730b4dcf9a025c0",
+      "packaged_sha256": "30885ad61c045e2666b4a229f5c7f3e2eaa3a9806585402b5639602ac08422b4",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_20.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_20.md",
+      "source_sha256": "61c2f9cca8cbb8f2a53c0cd27e69d1493dadb13e3de622078d53375ed10d783d",
+      "packaged_sha256": "acd975ef2b52725929d66a9e67a8b2867427c1e31c9190e8c8d688808b7ac571",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_21.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_21.md",
+      "source_sha256": "5f324f42e78e27e38534d4d740f1867b9e6d63b324a73b8b41956e8222a90760",
+      "packaged_sha256": "aa329a0e0e00649e72e2952a54cf3c4189b11b3fd2e0b5eb80ccf942544e1c53",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_22.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_22.md",
+      "source_sha256": "c7a08a9b109bb1fdc5d4882ec0fb157b1c1d8ac44ac19ee38d9d9a0e736a8162",
+      "packaged_sha256": "aa53ac930522b4f5223f7a2739c677d14067c18e98229506f602255030385b0c",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_23.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_23.md",
+      "source_sha256": "fd5b8ff01abda35f98ad81729c92bf42720dbcf0929ff23d96b07d4c533800a2",
+      "packaged_sha256": "2d8c23335b3cdf4f3c6c3d802ed69e83f4824739557c9825aed00c9f88112861",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_24.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_24.md",
+      "source_sha256": "dd69cef35b813ec0ce05872eb051d27f9c0068828068ae5898ab15c2e41a7d89",
+      "packaged_sha256": "00090193149e8dfcedff5c761349210d8ab3971ade038c54675de15d20dede43",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_25.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_25.md",
+      "source_sha256": "7d312defaf89cf52bd907677ccede0cfc547d91f579502773f666ef2c81032ab",
+      "packaged_sha256": "8fa287e170d274b15dc3e016a51f5b8e3bf1be213a6b2681dd85e975fd8f4487",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_26.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_26.md",
+      "source_sha256": "47fee4184eb5061cf06e1246500a7e1897628882efe10fa0f5eff5cb2f8d20b8",
+      "packaged_sha256": "b0cbd7d08ce3a189d7b40499c2b245d46f81eb59b01c0591e89226e34e7278d7",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_27.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_27.md",
+      "source_sha256": "87b51ec990a1efe071d16f196b232854ea545266386a4845704fefa9ceb672bb",
+      "packaged_sha256": "d7ab18c9c5bc488b457bdabea9c9f0b4808b18e758c2888395030d23d9a2454d",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_28.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_28.md",
+      "source_sha256": "11e38a3c46f13cf046689ebfbd308e058b0a31b47ff9427fb909512f70181510",
+      "packaged_sha256": "8ae6b893e8baec2306b006dd0be8950501e033d96a233cb21c4557847fbc692e",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_29.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_29.md",
+      "source_sha256": "d721c39124518add73a8541ff12b5704c95a63dd1b9e91ddcd0d26890eca7766",
+      "packaged_sha256": "2a3d0099b1074b5ef67c3c9e7e7cce4f0e70e45e22545946671160a6ed52bd84",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_30.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_30.md",
+      "source_sha256": "08ec658376bd640ef90605df91fed5e11f187c8ee8001ee33eeea02f2b2687bc",
+      "packaged_sha256": "5a38dbe0d03b4198080b65e01a11bbba05b42006bfafb63d4db5c46fd211e8cb",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_31.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_31.md",
+      "source_sha256": "645d1b4c0dabbaf3c858f1422f7acacddff32539a9ade042df275874993d3177",
+      "packaged_sha256": "a83e1e0061a5708b0acc85bb26cd0476f77e9b5e57bf4a19829a144902a8f45a",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_32.md",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_32.md",
+      "source_sha256": "12279d9da2cab2405bc8ad162d53e88f663166f6f6ee0432f6cad19ebc8db178",
+      "packaged_sha256": "9e9a4f1c8f613c636da5ca78bd57a9b9e1dea39c79f6bfe5fdafe69c98cbf39d",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    }
+  ]
+}
