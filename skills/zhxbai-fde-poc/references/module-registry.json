@@ -1,0 +1,39 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_08.md",
+        "fde_10.md",
+        "fde_11.md",
+        "fde_23.md",
+        "fde_26.md",
+        "fde_27.md",
+        "fde_28.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "description": "核对FDE范围、报价、合同、变更、付款和移交的业务一致性；提供依据与草稿，不替双方承诺或判断法律效力。",
+      "id": "deal",
+      "method_file": "commercial.md",
+      "name": "zhxbai-fde-deal",
+      "title": "项目商务",
+      "version": "0.4.1"
+    },
+    {
+      "articles": [
+        "fde_21.md",
+        "fde_22.md",
+        "fde_23.md"
+      ],
+      "dependencies": [
+        "deal"
+      ],
+      "description": "区分Demo和真实POC，明确验证范围/投入、用证据形成效果标准，并判断转正式的条件。",
+      "id": "poc",
+      "method_file": "poc.md",
+      "name": "zhxbai-fde-poc",
+      "title": "Demo与POC",
+      "version": "0.4.1"
+    }
+  ]
+}

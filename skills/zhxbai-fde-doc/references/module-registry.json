@@ -1,0 +1,22 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_14.md",
+        "fde_20.md",
+        "fde_22.md",
+        "fde_23.md"
+      ],
+      "dependencies": [],
+      "description": "评审现有MVP产品设计文档，给问题位置、需求冲突、具体修订及可开工条件；不是只生成新稿或宣布已上线。",
+      "id": "doc",
+      "method_file": "product-review.md",
+      "name": "zhxbai-fde-doc",
+      "title": "MVP设计评审",
+      "version": "0.4.1"
+    }
+  ]
+}

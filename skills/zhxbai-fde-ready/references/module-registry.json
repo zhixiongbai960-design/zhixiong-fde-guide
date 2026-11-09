@@ -1,0 +1,14 @@
+{
+  "modules": [
+    {
+      "articles": [],
+      "dependencies": [],
+      "description": "检查FDE课堂工具、材料、运行与输出就绪状态；适用于课前核验，不自动安装或扩权限。",
+      "id": "ready",
+      "method_file": "ready.md",
+      "name": "zhxbai-fde-ready",
+      "title": "课前就绪",
+      "version": "0.4.1"
+    }
+  ]
+}

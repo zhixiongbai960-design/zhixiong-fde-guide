@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_07.md",
+        "fde_12.md",
+        "fde_19.md"
+      ],
+      "dependencies": [],
+      "description": "围绕一个FDE任务整理已有材料和来源，检查知识可调用性，保留冲突和未知。",
+      "id": "knowledge",
+      "method_file": "knowledge.md",
+      "name": "zhxbai-fde-knowledge",
+      "title": "项目知识整理",
+      "version": "0.4.1"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_14.md",
+        "fde_15.md",
+        "fde_25.md"
+      ],
+      "dependencies": [
+        "run",
+        "deliver"
+      ],
+      "description": "按确认范围构建或检查FDE应用，区分需求覆盖、单测、真实入口和业务验证，不把写业务Skill替代工程任务。",
+      "id": "code",
+      "method_file": "engineering.md",
+      "name": "zhxbai-fde-code",
+      "title": "应用工程检查",
+      "version": "0.4.1"
+    },
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_11.md",
+        "fde_14.md",
+        "fde_15.md",
+        "fde_16.md",
+        "fde_25.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "description": "按需求和实际运行证据验收、排错、交接及按需路演复盘；没有运行证据只给计划和未验证状态。",
+      "id": "deliver",
+      "method_file": "deliver.md",
+      "name": "zhxbai-fde-deliver",
+      "title": "验证交付",
+      "version": "0.4.1"
+    },
+    {
+      "articles": [
+        "fde_15.md",
+        "fde_16.md",
+        "fde_17.md",
+        "fde_30.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "description": "验证FDE日常使用和客户接管，分流维护责任，并按真实条件提炼可复用方法，不把看护成功当无人值守。",
+      "id": "run",
+      "method_file": "operate.md",
+      "name": "zhxbai-fde-run",
+      "title": "运行与复用",
+      "version": "0.4.1"
+    }
+  ]
+}

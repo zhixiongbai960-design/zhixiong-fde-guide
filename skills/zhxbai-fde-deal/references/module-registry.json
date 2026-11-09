@@ -1,0 +1,23 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_08.md",
+        "fde_10.md",
+        "fde_11.md",
+        "fde_23.md",
+        "fde_26.md",
+        "fde_27.md",
+        "fde_28.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "description": "核对FDE范围、报价、合同、变更、付款和移交的业务一致性；提供依据与草稿，不替双方承诺或判断法律效力。",
+      "id": "deal",
+      "method_file": "commercial.md",
+      "name": "zhxbai-fde-deal",
+      "title": "项目商务",
+      "version": "0.4.1"
+    }
+  ]
+}

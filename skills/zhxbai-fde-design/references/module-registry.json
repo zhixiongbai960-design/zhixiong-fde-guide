@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_20.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "description": "把确认需求转成MVP流程、组件、数据和测试设计；用于方案设计与已有设计的基本核对。",
+      "id": "design",
+      "method_file": "design.md",
+      "name": "zhxbai-fde-design",
+      "title": "最小方案设计",
+      "version": "0.4.1"
+    }
+  ]
+}

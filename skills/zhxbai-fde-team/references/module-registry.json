@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_13.md",
+        "fde_18.md",
+        "fde_24.md"
+      ],
+      "dependencies": [],
+      "description": "梳理FDE有权决定者、数据/接口/样本依赖和协作阻塞，核对身份与记录权限，不用老板支持代替授权。",
+      "id": "team",
+      "method_file": "coordination.md",
+      "name": "zhxbai-fde-team",
+      "title": "配合与授权",
+      "version": "0.4.1"
+    }
+  ]
+}

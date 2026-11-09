@@ -1,0 +1,22 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_11.md",
+        "fde_14.md",
+        "fde_15.md",
+        "fde_16.md",
+        "fde_25.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "description": "按需求和实际运行证据验收、排错、交接及按需路演复盘；没有运行证据只给计划和未验证状态。",
+      "id": "deliver",
+      "method_file": "deliver.md",
+      "name": "zhxbai-fde-deliver",
+      "title": "验证交付",
+      "version": "0.4.1"
+    }
+  ]
+}

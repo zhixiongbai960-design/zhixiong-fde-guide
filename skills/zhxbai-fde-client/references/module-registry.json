@@ -1,0 +1,22 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_01.md",
+        "fde_02.md",
+        "fde_03.md",
+        "fde_04.md",
+        "fde_05.md",
+        "fde_05_extra.md",
+        "fde_06.md"
+      ],
+      "dependencies": [],
+      "description": "判断FDE服务类型、线索成熟度、沟通和售前投入，产出可兑现的下一步，不默认免费开发或保证获客。",
+      "id": "client",
+      "method_file": "engage.md",
+      "name": "zhxbai-fde-client",
+      "title": "客户与机会",
+      "version": "0.4.1"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
 
 ## FDE 课程 Skills
 
-学员推荐只安装 [zhxbai-fde 总技能](skills/zhxbai-fde)：一个完整目录内含项目全流程方法、33 篇指南正文与需求追问/MVP 规格方法。熟悉流程后可选 [8 个 zhxbai-fde-* 垂直技能](skills/README.md)。已完成源码与离线行为检查，仓库发布不等于宿主安装或生产验证。
+学员推荐只安装 [zhxbai-fde 总技能](skills/zhxbai-fde/)；也可选择 [18 个可独立安装模块](skills/README.md)。配套32张方法卡、33篇指南正文与单一权威源码。模块经过多轮独立测试后组装为固定总包快照，维护与检查见[发布说明](skills/README.md)。
 
 ## 阅读导航
 

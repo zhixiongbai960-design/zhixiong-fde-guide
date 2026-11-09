@@ -1,0 +1,19 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_14.md",
+        "fde_17.md"
+      ],
+      "dependencies": [],
+      "description": "将已确认业务方法封装为可复用Skill，区分方法配置并定义正常异常测试，不自动安装发布。",
+      "id": "build",
+      "method_file": "build.md",
+      "name": "zhxbai-fde-build",
+      "title": "业务Skill构建",
+      "version": "0.4.1"
+    }
+  ]
+}

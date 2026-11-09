@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_07.md",
+        "fde_19.md",
+        "fde_22.md"
+      ],
+      "dependencies": [],
+      "description": "通过逐轮追问挖掘具体场景和卡点，整理需求与评审意见，在本人确认范围后按请求生成MVP规格。",
+      "id": "need",
+      "method_file": "requirements.md",
+      "name": "zhxbai-fde-need",
+      "title": "需求追问挖掘",
+      "version": "0.4.1"
+    }
+  ]
+}

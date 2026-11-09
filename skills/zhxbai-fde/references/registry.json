@@ -1,0 +1,301 @@
+{
+  "version": "0.4.1",
+  "author": "白志雄 / 志亚科技",
+  "modules": [
+    {
+      "id": "ready",
+      "name": "zhxbai-fde-ready",
+      "title": "课前就绪",
+      "description": "检查FDE课堂工具、材料、运行与输出就绪状态；适用于课前核验，不自动安装或扩权限。",
+      "method_file": "ready.md",
+      "articles": [],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "knowledge",
+      "name": "zhxbai-fde-knowledge",
+      "title": "项目知识整理",
+      "description": "围绕一个FDE任务整理已有材料和来源，检查知识可调用性，保留冲突和未知。",
+      "method_file": "knowledge.md",
+      "articles": [
+        "fde_07.md",
+        "fde_12.md",
+        "fde_19.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "review",
+      "name": "zhxbai-fde-review",
+      "title": "需求判断",
+      "description": "评审已整理需求能否进入指定下一步，依据场景问题目的、范围、证据与授权给出反馈和补问，不代替真实验证。",
+      "method_file": "review.md",
+      "articles": [
+        "fde_06.md",
+        "fde_07.md",
+        "fde_18.md",
+        "fde_19.md",
+        "fde_22.md"
+      ],
+      "dependencies": [
+        "need"
+      ],
+      "version": "0.4.1"
+    },
+    {
+      "id": "scope",
+      "name": "zhxbai-fde-scope",
+      "title": "机会与范围",
+      "description": "比较FDE候选、切小范围并处理变更责任与投入，不替用户承诺价格工期或外发。",
+      "method_file": "scope.md",
+      "articles": [
+        "fde_06.md",
+        "fde_08.md",
+        "fde_10.md",
+        "fde_20.md",
+        "fde_28.md"
+      ],
+      "dependencies": [
+        "need"
+      ],
+      "version": "0.4.1"
+    },
+    {
+      "id": "design",
+      "name": "zhxbai-fde-design",
+      "title": "最小方案设计",
+      "description": "把确认需求转成MVP流程、组件、数据和测试设计；用于方案设计与已有设计的基本核对。",
+      "method_file": "design.md",
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_20.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "build",
+      "name": "zhxbai-fde-build",
+      "title": "业务Skill构建",
+      "description": "将已确认业务方法封装为可复用Skill，区分方法配置并定义正常异常测试，不自动安装发布。",
+      "method_file": "build.md",
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_14.md",
+        "fde_17.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "deliver",
+      "name": "zhxbai-fde-deliver",
+      "title": "验证交付",
+      "description": "按需求和实际运行证据验收、排错、交接及按需路演复盘；没有运行证据只给计划和未验证状态。",
+      "method_file": "deliver.md",
+      "articles": [
+        "fde_09.md",
+        "fde_11.md",
+        "fde_14.md",
+        "fde_15.md",
+        "fde_16.md",
+        "fde_25.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "case",
+      "name": "zhxbai-fde-case",
+      "title": "案例教学",
+      "description": "把讲师真实FDE项目切为教学案例，安排限时预演与独立变化任务，不虚构案例或批准准入。",
+      "method_file": "case.md",
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_15.md",
+        "fde_17.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "need",
+      "name": "zhxbai-fde-need",
+      "title": "需求追问挖掘",
+      "description": "通过逐轮追问挖掘具体场景和卡点，整理需求与评审意见，在本人确认范围后按请求生成MVP规格。",
+      "method_file": "requirements.md",
+      "articles": [
+        "fde_07.md",
+        "fde_19.md",
+        "fde_22.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "client",
+      "name": "zhxbai-fde-client",
+      "title": "客户与机会",
+      "description": "判断FDE服务类型、线索成熟度、沟通和售前投入，产出可兑现的下一步，不默认免费开发或保证获客。",
+      "method_file": "engage.md",
+      "articles": [
+        "fde_01.md",
+        "fde_02.md",
+        "fde_03.md",
+        "fde_04.md",
+        "fde_05.md",
+        "fde_05_extra.md",
+        "fde_06.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "chat",
+      "name": "zhxbai-fde-chat",
+      "title": "客户聊天分析",
+      "description": "分析客户聊天的明确表达、冲突、合作风险和后续问题；区分原话与推测，不读心、不自动联系客户。",
+      "method_file": "chat.md",
+      "articles": [
+        "fde_05.md",
+        "fde_06.md",
+        "fde_18.md",
+        "fde_19.md",
+        "fde_21.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "poc",
+      "name": "zhxbai-fde-poc",
+      "title": "Demo与POC",
+      "description": "区分Demo和真实POC，明确验证范围/投入、用证据形成效果标准，并判断转正式的条件。",
+      "method_file": "poc.md",
+      "articles": [
+        "fde_21.md",
+        "fde_22.md",
+        "fde_23.md"
+      ],
+      "dependencies": [
+        "deal"
+      ],
+      "version": "0.4.1"
+    },
+    {
+      "id": "team",
+      "name": "zhxbai-fde-team",
+      "title": "配合与授权",
+      "description": "梳理FDE有权决定者、数据/接口/样本依赖和协作阻塞，核对身份与记录权限，不用老板支持代替授权。",
+      "method_file": "coordination.md",
+      "articles": [
+        "fde_13.md",
+        "fde_18.md",
+        "fde_24.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "deal",
+      "name": "zhxbai-fde-deal",
+      "title": "项目商务",
+      "description": "核对FDE范围、报价、合同、变更、付款和移交的业务一致性；提供依据与草稿，不替双方承诺或判断法律效力。",
+      "method_file": "commercial.md",
+      "articles": [
+        "fde_08.md",
+        "fde_10.md",
+        "fde_11.md",
+        "fde_23.md",
+        "fde_26.md",
+        "fde_27.md",
+        "fde_28.md",
+        "fde_29.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "run",
+      "name": "zhxbai-fde-run",
+      "title": "运行与复用",
+      "description": "验证FDE日常使用和客户接管，分流维护责任，并按真实条件提炼可复用方法，不把看护成功当无人值守。",
+      "method_file": "operate.md",
+      "articles": [
+        "fde_15.md",
+        "fde_16.md",
+        "fde_17.md",
+        "fde_30.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "next",
+      "name": "zhxbai-fde-next",
+      "title": "项目卡点推进",
+      "description": "从本轮结果、紧迫风险、依赖和可用窗口选择下一有效动作，支持跨阶段并行/回退，不强迫固定流程。",
+      "method_file": "progress.md",
+      "articles": [
+        "fde_18.md",
+        "fde_24.md",
+        "fde_25.md",
+        "fde_32.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    },
+    {
+      "id": "code",
+      "name": "zhxbai-fde-code",
+      "title": "应用工程检查",
+      "description": "按确认范围构建或检查FDE应用，区分需求覆盖、单测、真实入口和业务验证，不把写业务Skill替代工程任务。",
+      "method_file": "engineering.md",
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_14.md",
+        "fde_15.md",
+        "fde_25.md"
+      ],
+      "dependencies": [
+        "run",
+        "deliver"
+      ],
+      "version": "0.4.1"
+    },
+    {
+      "id": "doc",
+      "name": "zhxbai-fde-doc",
+      "title": "MVP设计评审",
+      "description": "评审现有MVP产品设计文档，给问题位置、需求冲突、具体修订及可开工条件；不是只生成新稿或宣布已上线。",
+      "method_file": "product-review.md",
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_13.md",
+        "fde_14.md",
+        "fde_20.md",
+        "fde_22.md",
+        "fde_23.md"
+      ],
+      "dependencies": [],
+      "version": "0.4.1"
+    }
+  ],
+  "total_role": {
+    "name": "志雄",
+    "type": "ai-assistant"
+  }
+}

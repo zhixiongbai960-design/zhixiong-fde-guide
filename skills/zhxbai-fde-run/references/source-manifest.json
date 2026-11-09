@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "article": "fde_15.md",
+      "packaged_sha256": "512b5262acbbc8a50bf330ae3ceeaec1082b0e59ccd5d84b89d84151ae919df9",
+      "source_sha256": "6b86d00e1a8a81b84cac3792918a1b9bdcdca529e982b8f8a34fc1328acf4020",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_15.md",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_16.md",
+      "packaged_sha256": "5bfeec55845abcda8e0ba9355c892cc33682d81806af6648db3325dd266bb8e0",
+      "source_sha256": "d5cccb918ac746bd54b5b0978ab16925fd6d500472e2ed8b6690c4c04146a197",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_16.md",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_17.md",
+      "packaged_sha256": "ed7772ef430a9bc169049faa3041cdc0913bbbe0578ac7498016c37336cc34ef",
+      "source_sha256": "95549e9a83c2ae496fec5b77f9d3d3c236cc2cf2422065eef6fa35ba9ff816d4",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_17.md",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_30.md",
+      "packaged_sha256": "5a38dbe0d03b4198080b65e01a11bbba05b42006bfafb63d4db5c46fd211e8cb",
+      "source_sha256": "08ec658376bd640ef90605df91fed5e11f187c8ee8001ee33eeea02f2b2687bc",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_30.md",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    },
+    {
+      "article": "fde_31.md",
+      "packaged_sha256": "a83e1e0061a5708b0acc85bb26cd0476f77e9b5e57bf4a19829a144902a8f45a",
+      "source_sha256": "645d1b4c0dabbaf3c858f1422f7acacddff32539a9ade042df275874993d3177",
+      "source_url": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/blob/50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5/articles/fde_31.md",
+      "transform": "Only relative navigation/image links changed to pinned source URLs; full prose retained."
+    }
+  ]
+}

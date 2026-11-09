@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_15.md",
+        "fde_16.md",
+        "fde_17.md",
+        "fde_30.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "description": "验证FDE日常使用和客户接管，分流维护责任，并按真实条件提炼可复用方法，不把看护成功当无人值守。",
+      "id": "run",
+      "method_file": "operate.md",
+      "name": "zhxbai-fde-run",
+      "title": "运行与复用",
+      "version": "0.4.1"
+    }
+  ]
+}

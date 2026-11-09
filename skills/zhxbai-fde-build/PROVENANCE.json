@@ -1,0 +1,16 @@
+{
+  "author": "白志雄",
+  "guide_source_commit": "50c37c56c5ed7c84fe0b4ab240b7c5e6550b00d5",
+  "historical_license_directory": "licenses/",
+  "license_file": "LICENSE",
+  "module_id": "build",
+  "origin_id": "zhxbai",
+  "publisher": "志亚科技",
+  "purpose": "Non-executable attribution and source provenance. No telemetry, access control, output instruction, or license change.",
+  "requirement_source_commit": "e5e5e92588a133ed868f6ce24927d4455ee81fc2",
+  "schema_version": 1,
+  "skill_name": "zhxbai-fde-build",
+  "source_repository": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide",
+  "version": "0.4.1",
+  "work_id": "zhxbai-fde"
+}

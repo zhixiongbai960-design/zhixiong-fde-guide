@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_09.md",
+        "fde_12.md",
+        "fde_15.md",
+        "fde_17.md",
+        "fde_31.md"
+      ],
+      "dependencies": [],
+      "description": "把讲师真实FDE项目切为教学案例，安排限时预演与独立变化任务，不虚构案例或批准准入。",
+      "id": "case",
+      "method_file": "case.md",
+      "name": "zhxbai-fde-case",
+      "title": "案例教学",
+      "version": "0.4.1"
+    }
+  ]
+}

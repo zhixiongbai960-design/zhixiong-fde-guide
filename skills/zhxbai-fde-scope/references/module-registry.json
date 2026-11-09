@@ -1,0 +1,36 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_07.md",
+        "fde_19.md",
+        "fde_22.md"
+      ],
+      "dependencies": [],
+      "description": "通过逐轮追问挖掘具体场景和卡点，整理需求与评审意见，在本人确认范围后按请求生成MVP规格。",
+      "id": "need",
+      "method_file": "requirements.md",
+      "name": "zhxbai-fde-need",
+      "title": "需求追问挖掘",
+      "version": "0.4.1"
+    },
+    {
+      "articles": [
+        "fde_06.md",
+        "fde_08.md",
+        "fde_10.md",
+        "fde_20.md",
+        "fde_28.md"
+      ],
+      "dependencies": [
+        "need"
+      ],
+      "description": "比较FDE候选、切小范围并处理变更责任与投入，不替用户承诺价格工期或外发。",
+      "id": "scope",
+      "method_file": "scope.md",
+      "name": "zhxbai-fde-scope",
+      "title": "机会与范围",
+      "version": "0.4.1"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# 包内方法导航
+
+本包只包含以下方法，按当前任务读取，不要求安装其他技能。
+
+- [需求追问挖掘](methods/requirements.md)
+- [机会与范围](methods/scope.md)

@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "articles": [
+        "fde_05.md",
+        "fde_06.md",
+        "fde_18.md",
+        "fde_19.md",
+        "fde_21.md"
+      ],
+      "dependencies": [],
+      "description": "分析客户聊天的明确表达、冲突、合作风险和后续问题；区分原话与推测，不读心、不自动联系客户。",
+      "id": "chat",
+      "method_file": "chat.md",
+      "name": "zhxbai-fde-chat",
+      "title": "客户聊天分析",
+      "version": "0.4.1"
+    }
+  ]
+}
