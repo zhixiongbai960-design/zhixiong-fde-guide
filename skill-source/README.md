@@ -1,6 +1,6 @@
 # 志雄 FDE Skills：单一源码与独立模块
 
-志亚科技出品 · 作者：白志雄。专家发行版0.4.3，方法基线0.4.2。当前命名与包装验证见[0.4.3验证记录](docs/v0.4.3-validation.md)，方法行为验证见[0.4.2验证记录](docs/v0.4.2-validation.md)。
+志亚科技出品 · 作者：白志雄。0.4.4 发布前验证：专家发行版本与当前方法快照均为0.4.4，修正对话追问每轮只索取一个独立未知，并保留明确请求会议提纲或核对清单时的多问。旧总包 `zhxbai-fde` 0.4.2 与18个独立发行包保持原字节；源码更新不代表它们已升级。实际构建、行为验证与发布状态见[0.4.4验证记录](docs/v0.4.4-validation.md)。
 
 ## 公开角色与来源
 
@@ -18,18 +18,18 @@
 
 ## 专家包发行与旧包兼容
 
-- `src/` 仍是唯一方法源，`src/total-SKILL.md` 是共用总入口行为源，保留0.4.2旧身份以便复现旧版；不复制第二份行为提示词。
+- `src/` 仍是唯一当前方法源，`src/total-SKILL.md` 保留旧名作为构建器输入，版本为当前方法快照0.4.4；专家打包器转换发行身份。旧0.4.2须从对应历史提交复现，不能用当前已修订源码重建后覆盖历史包。
 - `packaging/expert.json` 定义新包的规范名、展示名、发行版本和方法基线。`tools/package_expert.py` 复用原构建器及QA门禁，只转换总入口发行身份、生成来源元数据和UI信息，并带入说明书。
 - 在本目录运行 `python3 tools/package_expert.py build`，再运行 `python3 tools/package_expert.py verify`。新产物为 `dist/expert/zhixiong-fde-expert/`，只将此完整目录同步到 `skills/zhixiong-fde-expert/`。发布仍须单独授权。
-- 原 `tools/package.py`、模块指纹与18个独立包不因发行重命名改写。`build-total` 仅用于复现旧名总包，不能替代新专家包构建。已有 `skills/zhxbai-fde/` 保持0.4.2冻结快照，勿用新产物覆盖。
-- 新包 `metadata.version`、`PROVENANCE.json` 与 `RELEASE.json.version` 是发行版本；`references/registry.json.version` 与 `RELEASE.json.method_baseline_version` 记录方法基线。历史QA文件保留原版本，不冒充0.4.3新做的行为测试。
+- 原 `tools/package.py`、模块指纹与18个独立包不因发行重命名改写。当前源码的 `build-total` 会生成旧名但新方法的包，不能用于复现0.4.2或替代新专家包构建；本次不要运行它。已有 `skills/zhxbai-fde/` 保持0.4.2冻结快照，勿用新产物覆盖。
+- 新包 `metadata.version`、`PROVENANCE.json` 与 `RELEASE.json.version` 是发行版本；`references/registry.json.version` 与 `RELEASE.json.method_baseline_version` 记录方法基线。本次只为改变的chat方法重新绑定实际QA；其余17项保留原版本历史证据，不冒充0.4.4新做的行为测试。
 
 ## 方法维护流程
 
 1. 改一个模块或其确有必要的引用资料；保留来源与许可。
 2. 运行 python3 tools/package.py affected --module need 等命令查看受影响依赖，运行hashes取得当前指纹。源码变化使对应证据过期，不能沿用旧通过。
-3. 运行build-modules，得到独立包，逐个做正常/异常/衔接行为测试；每个受影响模块至少两轮实际响应和独立审查。测试证据保存在qa/evidence，确认真实结论后记录qa/modules.json。
-4. 运行verify --target modules，检查字节与来源；只有QA与当前指纹一致才允许build-total。构建程序检查证据文件/版本关联，不能替代对证据含义的人工审阅，不得为了过关伪造pass文件。
+3. 若发布独立包，运行build-modules；若像0.4.4只发布专家包，则用Packager.module生成受影响模块到仅测试暂存目录，不覆盖冻结的skills独立包。逐个做正常/异常/衔接行为测试；每个受影响模块至少两轮实际响应和独立审查。测试证据保存在qa/evidence，确认真实结论后记录qa/modules.json。
+4. 对需要发布的产物检查字节与来源。0.4.4仅在QA与当前指纹一致后运行package_expert.py build和verify；不构建或覆盖旧总包、18个历史独立包。构建程序检查证据文件/版本关联，不能替代对证据含义的人工审阅，不得为了过关伪造pass文件。
 5. 构建后再用总入口做跨模块回归，核对生成包、许可、链接和来源。GitHub发布/用户安装是独立步骤，不因本地构建自动发生。
 6. 失败时保留上一次成功产物，不用半成品覆盖；需要退回可运行rollback --target total或modules。保留一份上一版本。运行构建/回滚时不并发读取/安装正在切换的目录。
 
@@ -45,5 +45,7 @@
 真实宿主/业务系统验证与离线方法响应不同。本版本未进行WorkBuddy等目标宿主安装验证，报告不把离线方法响应或合成代码测试写成宿主或生产验证。
 
 ## 验证记录的版本
+
+以下0.4.2说明是历史记录；0.4.4当前状态以新验证记录为准。
 
 qa/evidence/total-final-review.md是0.4.0历史终审，0.4.1来源迁移记录也只对应当时版本。本次0.4.2仅重测受影响的knowledge、next、deal、poc、run、code及总入口；其余12个独立包逐字节保持0.4.1，沿用明确标注的历史证据。未经检查不得只换哈希就沿用通过。

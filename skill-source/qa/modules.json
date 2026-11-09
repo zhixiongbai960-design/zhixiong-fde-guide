@@ -234,23 +234,23 @@
     },
     {
       "id": "chat",
-      "source_hash": "c1ec85831f0e95e1a36b4747c588ca6c5f0195482c3d125632f32034f79c5078",
+      "source_hash": "60f8fcade00ddb30953420e1550c4d4d95c1b9b1f84c656e284d82e824834130",
       "rounds": [
         {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-chat.md",
+          "id": "v0.4.4-round-1",
+          "transcript_path": "qa/evidence/v0.4.4-chat-round-1.md",
           "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Separated reported statements, approval gaps and alternative explanations; no malicious-intent certainty or contact.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
+          "notes": "Actual public synthetic initial response: corrected record and exactly one independently answerable question. Reviewed against current chat 0.4.4 source hash; no host-installation claim."
         },
         {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-chat.md",
+          "id": "v0.4.4-round-2",
+          "transcript_path": "qa/evidence/v0.4.4-chat-round-2.md",
           "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Updated judgment with new reported correction; no mind-reading, private-family inference or third-party contact; acknowledged relay provenance.\nThe transcript records fresh-context use of only this standalone module and the request, without other modules or QA answers."
+          "notes": "Actual public synthetic follow-up in the same conversation as round 1: explicit three-item meeting checklist preserved. Not an independent cold start or repetition; independently reviewed under the same final source hash."
         }
       ],
       "independent_review": {
-        "path": "qa/evidence/review-chat.md",
+        "path": "qa/evidence/v0.4.4-chat-review.md",
         "verdict": "pass"
       }
     },

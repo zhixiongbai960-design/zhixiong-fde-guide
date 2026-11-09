@@ -16,6 +16,8 @@
 
 新学员先看[专家技能使用说明书](skills/zhixiong-fde-expert/README.md)，安装标识为 `zhixiong-fde-expert`。也可按需选用[18个独立模块](skills/README.md)。当前通过本仓库的技能目录分发，没有另建专家仓库或发布 GitHub Release。旧 `zhxbai-fde` 0.4.2目录保留，升级方式与验证范围见[发布说明](skills/README.md)。
 
+0.4.4专家包的模块、入口及包装检查已完成，当前方法快照同步为0.4.4；旧总包0.4.2及18个独立包冻结不变。构建、验证和发布状态见[0.4.4验证记录](skill-source/docs/v0.4.4-validation.md)。
+
 ## 阅读导航
 
 先看 [FDE 实战全景图](chapters/panorama.md)，再按当前项目的问题选择章节。全部图片可在 [图文卡片目录](cards/README.md) 查看。

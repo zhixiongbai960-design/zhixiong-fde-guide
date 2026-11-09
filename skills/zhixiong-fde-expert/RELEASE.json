@@ -1,16 +1,16 @@
 {
   "display_name": "zhixiong-fde-Expert",
   "inputs_sha256": {
-    "docs/专家技能使用说明.md": "834f6a06992a16ed9cfd0d31f4ab26d7be7faf5caeb3c576d893426f1b932104",
-    "packaging/expert.json": "cccf9fe88e362d4ef7532512c3d998f32467669d15cbac03f118999c5cc660a0",
+    "docs/专家技能使用说明.md": "e503a7b59ba06bab6836c92a078708bb6260da07ca464f7c83e9e32e681194ca",
+    "packaging/expert.json": "ccff6c1bc5842bea6f3d2cd2879077de429b3d05ce3b8935a987771831e7d813",
     "tools/package_expert.py": "8831da4c08c3b53c3c646a06cc4276f76036657a326b6d0392c3ecc54f78d301"
   },
   "legacy_compatibility": "Existing zhxbai-fde 0.4.2 remains a separate frozen package, not an alias.",
   "legacy_name": "zhxbai-fde",
-  "method_baseline_version": "0.4.2",
+  "method_baseline_version": "0.4.4",
   "method_source": "skill-source/src/",
-  "method_source_fingerprint": "a113846400f0dbe678b52d0d1014754d89585c047af0381158d24de667f635a4",
+  "method_source_fingerprint": "32d1a6ba9c524bfb3ff7427348d51f8b667c428381afeeba643754a1fce9b245",
   "name": "zhixiong-fde-expert",
   "schema_version": 1,
-  "version": "0.4.3"
+  "version": "0.4.4"
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.4",
   "author": "白志雄 / 志亚科技",
   "modules": [
     {
@@ -173,7 +173,7 @@
         "fde_21.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.4.4"
     },
     {
       "id": "poc",

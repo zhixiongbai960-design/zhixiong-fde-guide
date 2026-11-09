@@ -8,7 +8,7 @@ metadata:
   source: "https://github.com/zhixiongbai960-design/zhixiong-fde-guide"
   role_name: "志雄"
   role_type: "ai-assistant"
-  version: "0.4.2"
+  version: "0.4.4"
 ---
 
 # 志雄 · FDE 项目实战 AI 助手
