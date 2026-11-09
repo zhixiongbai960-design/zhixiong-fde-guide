@@ -1,6 +1,6 @@
 # 志雄 FDE Skills：单一源码与独立模块
 
-志亚科技出品 · 作者：白志雄。版本0.4.2。已完成本次受影响模块与总入口的合成行为回归；详情见[0.4.2验证记录](docs/v0.4.2-validation.md)。
+志亚科技出品 · 作者：白志雄。专家发行版0.4.3，方法基线0.4.2。当前命名与包装验证见[0.4.3验证记录](docs/v0.4.3-validation.md)，方法行为验证见[0.4.2验证记录](docs/v0.4.2-validation.md)。
 
 ## 公开角色与来源
 
@@ -8,7 +8,7 @@
 
 ## 给使用者
 
-每个 zhxbai-fde-* 小技能是独立包，带自己的方法、必需模板、指南原文和许可，不需要安装其他小技能。总技能 zhxbai-fde 是这些通过测试模块的固定快照，一次安装覆盖全流程。总包和小包均不依赖第三方SkillHub脚本。
+每个 zhxbai-fde-* 小技能是独立包，带自己的方法、必需模板、指南原文和许可，不需要安装其他小技能。新总技能 [zhixiong-fde-Expert](../skills/zhixiong-fde-expert/)（安装名 `zhixiong-fde-expert`）是这些通过测试模块的固定快照，一次安装覆盖全流程。[使用说明书](docs/专家技能使用说明.md)讲解安装、升级和边界。旧 `zhxbai-fde` 0.4.2保留不动，不是自动别名。总包和小包均不依赖第三方SkillHub脚本。
 
 ## 给维护者
 
@@ -16,7 +16,15 @@
 
 请修改权威源，不直接手改已生成的dist或GitHub分发目录。小模块改动不即时改变已安装总包；通过受影响模块回归后重新构建，才产生新的总包快照。旧总包在替换前继续原样使用，不宣称自动更新。
 
-## 维护流程
+## 专家包发行与旧包兼容
+
+- `src/` 仍是唯一方法源，`src/total-SKILL.md` 是共用总入口行为源，保留0.4.2旧身份以便复现旧版；不复制第二份行为提示词。
+- `packaging/expert.json` 定义新包的规范名、展示名、发行版本和方法基线。`tools/package_expert.py` 复用原构建器及QA门禁，只转换总入口发行身份、生成来源元数据和UI信息，并带入说明书。
+- 在本目录运行 `python3 tools/package_expert.py build`，再运行 `python3 tools/package_expert.py verify`。新产物为 `dist/expert/zhixiong-fde-expert/`，只将此完整目录同步到 `skills/zhixiong-fde-expert/`。发布仍须单独授权。
+- 原 `tools/package.py`、模块指纹与18个独立包不因发行重命名改写。`build-total` 仅用于复现旧名总包，不能替代新专家包构建。已有 `skills/zhxbai-fde/` 保持0.4.2冻结快照，勿用新产物覆盖。
+- 新包 `metadata.version`、`PROVENANCE.json` 与 `RELEASE.json.version` 是发行版本；`references/registry.json.version` 与 `RELEASE.json.method_baseline_version` 记录方法基线。历史QA文件保留原版本，不冒充0.4.3新做的行为测试。
+
+## 方法维护流程
 
 1. 改一个模块或其确有必要的引用资料；保留来源与许可。
 2. 运行 python3 tools/package.py affected --module need 等命令查看受影响依赖，运行hashes取得当前指纹。源码变化使对应证据过期，不能沿用旧通过。

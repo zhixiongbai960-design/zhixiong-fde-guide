@@ -12,7 +12,9 @@
 
 ## FDE 课程 Skills
 
-学员推荐只安装 [zhxbai-fde 总技能](skills/zhxbai-fde/)；也可选择 [18 个可独立安装模块](skills/README.md)。配套32张方法卡、33篇指南正文与单一权威源码。模块经过多轮独立测试后组装为固定总包快照，维护与检查见[发布说明](skills/README.md)。
+**指南与专家技能同仓维护，专家技能可独立安装。** 指南供人阅读；[zhixiong-fde-Expert 专家技能](skills/zhixiong-fde-expert/)将指南方法用于当前项目，内置18个方法模块及33篇指南文字，无需再安装小技能。
+
+新学员先看[专家技能使用说明书](skills/zhixiong-fde-expert/README.md)，安装标识为 `zhixiong-fde-expert`。也可按需选用[18个独立模块](skills/README.md)。当前通过本仓库的技能目录分发，没有另建专家仓库或发布 GitHub Release。旧 `zhxbai-fde` 0.4.2目录保留，升级方式与验证范围见[发布说明](skills/README.md)。
 
 ## 阅读导航
 

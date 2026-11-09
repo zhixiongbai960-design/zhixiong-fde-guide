@@ -1,5 +1,15 @@
 # Offline packaging
 
+## Current expert distribution (0.4.3)
+
+Run `python3 tools/package_expert.py build` from `skill-source/`, followed by `python3 tools/package_expert.py verify`. Output: `dist/expert/zhixiong-fde-expert/`. `rollback` swaps the current and previous verified expert build. This thin distribution layer reuses the unchanged `package.py` source/QA gate and safety machinery. Its identity comes from `packaging/expert.json`; its learner manual comes from `docs/专家技能使用说明.md`. It changes only the total package identity and adds the manual, UI metadata and release metadata. All method/article/license/evidence bytes remain the same.
+
+`package.py build-total` below reproduces the legacy `zhxbai-fde` 0.4.2 identity. It does not produce the current expert package. Keep the published legacy directory frozen; do not replace it with a renamed folder whose internal name differs.
+
+Run all packaging tests with `python3 -m unittest discover -s tests -v`. These tests are separate from live host installation and semantic behavior evaluation.
+
+## Original method and legacy-total builder
+
 Run from any working directory with Python 3. No additional dependencies or downloaded code are executed. Paths are fixed relative to this script's project root; no arbitrary source/output option exists.
 
 - `python3 tools/package.py build-modules`: validate source and build all standalone packages.

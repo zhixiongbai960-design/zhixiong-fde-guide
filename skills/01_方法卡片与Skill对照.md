@@ -6,7 +6,7 @@
 
 ## 入口与使用方式
 
-- **一次安装覆盖项目全流程**：使用[总技能 zhxbai-fde](zhxbai-fde/SKILL.md)，按问题调用包内方法。
+- **一次安装覆盖项目全流程**：使用[专家技能 zhixiong-fde-Expert](zhixiong-fde-expert/SKILL.md)，按问题调用包内方法。
 - **只需要某一类帮助**：使用下表对应的独立模块。每包自带所需方法、模板和指南资料，不需要另装它引用的其他模块。
 - **已有需求入口**：原 `requirement-analysis` 仍可继续使用。新版 [zhxbai-fde-need](zhxbai-fde-need/SKILL.md) 已承接其需求追问、评审回写和确认后生成 MVP 规格的能力，总包也已内置，不要求另外安装旧入口。
 - 总包与独立模块来自[同一份方法源码](../skill-source/src/methods/)；对应关系见[模块注册表](../skill-source/src/registry.json)。总包是一个版本快照，修改源码或独立模块不会自动改变已安装的总包。

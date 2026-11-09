@@ -1,5 +1,13 @@
 # 来源元数据与打包指纹
 
+## 0.4.3专家发行层
+
+当前新包的 `skill_name` 是 `zhixiong-fde-expert`，展示名是 `zhixiong-fde-Expert`，发行版本0.4.3。`tools/package_expert.py` 从同一份方法源与已核验QA构建，再按 `packaging/expert.json` 转换发行身份；保留 `origin_id`、`work_id`、作者、固定来源提交和许可不变。`RELEASE.json` 区分发行版与0.4.2方法基线并记录包装输入指纹；它与构建清单用于完整性核对，不是签名或不可篡改证明。
+
+下文描述原模块/旧总包构建器，继续适用于未改动的18个独立包及保留的 `zhxbai-fde` 0.4.2。专家包装不改写其方法指纹或历史QA。
+
+## 原构建器与方法指纹
+
 每个独立包与总包只在包根生成一份 `PROVENANCE.json`，不另复制 `references/provenance.json`。作者、发布者、`zhxbai` 来源标识、仓库、固定来源提交和许可位置均来自 `src/provenance.json`；构建器加入稳定的 `module_id`、`skill_name` 和版本。独立包使用 `src/registry.json` 中本模块的 `modules[].version`；总包使用顶层 `version`。总包使用 `all` / `zhxbai-fde`，并公开角色 `志雄` / `ai-assistant`，不代表或冒充真人作者。
 
 这是非执行 JSON 元数据，不是系统提示、访问控制、输出要求或新的许可。构建器不会读取其中的 URL 发起网络请求，不采集用户数据，不包含遥测或外部命令执行路径。根 `LICENSE` 与 `licenses/` 中的历史来源许可仍按原字节复制。
