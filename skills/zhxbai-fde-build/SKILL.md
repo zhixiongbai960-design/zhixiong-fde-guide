@@ -1,9 +1,9 @@
 ---
 name: "zhxbai-fde-build"
-description: "将已确认业务方法封装为可复用Skill，区分方法配置并定义正常异常测试，不自动安装发布。"
+description: "为已确认业务方法设计 Skill 规格、配置边界和正常异常验收，交专门执行者实现；不编写业务 Skill 或脚本。"
 ---
 
-# 业务Skill构建
+# 业务Skill方法设计与交接
 
 先阅读并执行[本模块方法](references/methods/build.md)。
 

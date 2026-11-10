@@ -1,0 +1,95 @@
+{
+  "version": "0.5.0",
+  "package_tree_sha256": "4a52420347e2585c1b0585dfe76402110365f1c4e4bc0de66f4f2d17bca2aa9f",
+  "method_source_fingerprint": "dc09be4c5ef46df0e6d1a4dea17e60ce0e43d4ded5bf1642223c4b68083d49c1",
+  "result": "pass_for_six_selected_synthetic_expert_answers",
+  "actual_expert_answers": 6,
+  "independent_conversations": 2,
+  "stage_count_per_chain": 3,
+  "transcripts": [
+    {
+      "chain": "expert-A",
+      "stage": 1,
+      "transcript_path": "qa/evidence/v050-expert/expert-A-stage-1.md",
+      "prompt_sha256": "4d8c1d62b2d280c23ddf6a9419ba45539bb459e4d5bb45c5c90f065e2a2b17d2",
+      "answer_sha256": "b9277088e7dacd83fcc1be4dbc7d07a956f073e8243efeb9f49cb41553a26d75",
+      "transcript_sha256": "70d6a8276688ac25228b39e8767246d57938dcfd60c36ad074b4e3b0af5d2d67",
+      "prompt_byte_count": 1246,
+      "answer_byte_count": 20548
+    },
+    {
+      "chain": "expert-A",
+      "stage": 2,
+      "transcript_path": "qa/evidence/v050-expert/expert-A-stage-2.md",
+      "prompt_sha256": "ee188bc8e1221446b90290abf5e5156b7068bdadf7a39b661e328856979019dd",
+      "answer_sha256": "38f93cc82f17e0777fa04090676e9deff83a96d56c2a59b94089db483c0eee52",
+      "transcript_sha256": "a295a834b77f9c65df4997789483d8253ebba3aed78772e55675d52ec9d5bca6",
+      "prompt_byte_count": 453,
+      "answer_byte_count": 9789
+    },
+    {
+      "chain": "expert-A",
+      "stage": 3,
+      "transcript_path": "qa/evidence/v050-expert/expert-A-stage-3.md",
+      "prompt_sha256": "563870326e267725106f7e148a0b306364e21d919f1c97fd817bfdec145eafeb",
+      "answer_sha256": "614ade89d019931357df900e6e85a104e46eba9fd282622e5becd793c152bac1",
+      "transcript_sha256": "352e6a3a178ee6aae10227bb8186c899e5b9d3004af7b70a8c7afc5482bbbaf4",
+      "prompt_byte_count": 593,
+      "answer_byte_count": 16301
+    },
+    {
+      "chain": "expert-B",
+      "stage": 1,
+      "transcript_path": "qa/evidence/v050-expert/expert-B-stage-1.md",
+      "prompt_sha256": "236c538e8860f71c1a4ba62ded83c47c073cd2693be3f655e8356bd2655b6bc6",
+      "answer_sha256": "b667b0b88f57fe6eb16d549c0170fbead505d75fe78c019289a07b7232b4db19",
+      "transcript_sha256": "2338fd472d267dbba3e50ed806df979455ae0dda560aadaa69c63b22f26f9ffe",
+      "prompt_byte_count": 981,
+      "answer_byte_count": 10630
+    },
+    {
+      "chain": "expert-B",
+      "stage": 2,
+      "transcript_path": "qa/evidence/v050-expert/expert-B-stage-2.md",
+      "prompt_sha256": "9cffa18ffa1cc4e48ef750193e2eddf35d3d26287c60130289394faf6b2852a5",
+      "answer_sha256": "700e4ad452ac77d03cc8bff14df3a7316d2749efd226368725775882a6954d4f",
+      "transcript_sha256": "5d5b41f5c27e84df3549cbf31ced2fcc028d00c8bf3946479da9620a4048bd29",
+      "prompt_byte_count": 837,
+      "answer_byte_count": 21464
+    },
+    {
+      "chain": "expert-B",
+      "stage": 3,
+      "transcript_path": "qa/evidence/v050-expert/expert-B-stage-3.md",
+      "prompt_sha256": "6e86699dca9a23f0749ac7333b57921bff9c11ea9f04eb3e8f9c2d7ba30c8b2e",
+      "answer_sha256": "7ada27f34acca8d2fa494294255449e2c8dec46e689dfd765493ad2a16e1cc67",
+      "transcript_sha256": "0d437a43b20f0e662cef1ea1bbc8f3d2e29d5490ab1c182ee82727843047d797",
+      "prompt_byte_count": 675,
+      "answer_byte_count": 12422
+    }
+  ],
+  "public_reviews": [
+    {
+      "file": "public-expert-A-review.md",
+      "sha256": "ae96aa0c626c3959620517a82390c227704e3227747747ae2dd415504cbd2080"
+    },
+    {
+      "file": "public-expert-B-review.md",
+      "sha256": "a5a818d979739b140f28aa367fd8b266cc7c08d6519aa0896401a070b24bab80"
+    },
+    {
+      "file": "public-expert-summary.md",
+      "sha256": "78f84217520c92403ffbabeed867402897cc7505b0b7c113c42a7a52a7fdd070"
+    }
+  ],
+  "release_scope_counts": {
+    "actual_module_answers": 38,
+    "selected_accepted_module_answers": 36,
+    "retained_original_review_answers": 2,
+    "actual_expert_answers": 6,
+    "all_actual_answers": 44,
+    "selected_accepted_answers": 42,
+    "historical_unresolved_answers": 1
+  },
+  "limits": "Directed fully synthetic sequences with scope hints; no no-Skill control, causal gain, host installation, production or business-outcome claim."
+}

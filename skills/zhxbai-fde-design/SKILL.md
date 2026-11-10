@@ -1,9 +1,9 @@
 ---
 name: "zhxbai-fde-design"
-description: "把确认需求转成MVP流程、组件、数据和测试设计；用于方案设计与已有设计的基本核对。"
+description: "把确认需求转成具体 MVP 流程、组件、状态、接口、数据、权限和测试设计，提供工程交接，不直接实现。"
 ---
 
-# 最小方案设计
+# 产品与最小架构设计
 
 先阅读并执行[本模块方法](references/methods/design.md)。
 

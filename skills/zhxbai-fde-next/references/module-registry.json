@@ -8,12 +8,12 @@
         "fde_32.md"
       ],
       "dependencies": [],
-      "description": "从本轮结果、紧迫风险、依赖和可用窗口选择下一有效动作，支持跨阶段并行/回退，不强迫固定流程。",
+      "description": "从本轮结果、紧迫风险、依赖和窗口建议下一有效动作及负责人，支持并行/回退；不代最终决定或接管工程实现。",
       "id": "next",
       "method_file": "progress.md",
       "name": "zhxbai-fde-next",
       "title": "项目卡点推进",
-      "version": "0.4.2"
+      "version": "0.5.0"
     }
   ]
 }

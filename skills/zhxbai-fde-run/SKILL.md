@@ -1,9 +1,9 @@
 ---
 name: "zhxbai-fde-run"
-description: "验证FDE日常使用和客户接管，分流维护责任，并按真实条件提炼可复用方法，不把看护成功当无人值守。"
+description: "评审 FDE 日常使用和客户接管证据，分流维护责任，提炼可复用方法规格；不修业务代码或生成 Skill/脚本。"
 ---
 
-# 运行与复用
+# 运行评审与复用设计
 
 先阅读并执行[本模块方法](references/methods/operate.md)。
 

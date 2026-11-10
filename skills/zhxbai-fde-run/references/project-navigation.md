@@ -2,4 +2,4 @@
 
 本包只包含以下方法，按当前任务读取，不要求安装其他技能。
 
-- [运行与复用](methods/operate.md)
+- [运行评审与复用设计](methods/operate.md)

@@ -1,9 +1,9 @@
 ---
 name: "zhxbai-fde-poc"
-description: "区分Demo和真实POC，明确验证范围/投入、用证据形成效果标准，并判断转正式的条件。"
+description: "区分 Demo 和真实 POC，设计验证范围、实验与投入，用证据分析效果及转正式条件；不开发演示或连接接口。"
 ---
 
-# Demo与POC
+# Demo与POC设计
 
 先阅读并执行[本模块方法](references/methods/poc.md)。
 

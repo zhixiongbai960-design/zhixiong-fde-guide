@@ -45,8 +45,8 @@ class ExpertPackagingTests(unittest.TestCase):
         self.assertEqual(provenance['skill_name'], release['name'])
         self.assertEqual(provenance['version'], release['version'])
         self.assertEqual(provenance['role'], {'name': '志雄', 'type': 'ai-assistant'})
-        self.assertEqual(release['version'], '0.4.4')
-        self.assertEqual(release['method_baseline_version'], '0.4.4')
+        self.assertEqual(release['version'], '0.5.0')
+        self.assertEqual(release['method_baseline_version'], '0.5.0')
 
     def test_legacy_modules_and_all_behavior_resources_unchanged(self):
         before = package.Packager(self.root)

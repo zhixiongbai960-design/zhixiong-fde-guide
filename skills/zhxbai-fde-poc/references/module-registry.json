@@ -17,7 +17,7 @@
       "method_file": "commercial.md",
       "name": "zhxbai-fde-deal",
       "title": "项目商务",
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "articles": [
@@ -28,12 +28,12 @@
       "dependencies": [
         "deal"
       ],
-      "description": "区分Demo和真实POC，明确验证范围/投入、用证据形成效果标准，并判断转正式的条件。",
+      "description": "区分 Demo 和真实 POC，设计验证范围、实验与投入，用证据分析效果及转正式条件；不开发演示或连接接口。",
       "id": "poc",
       "method_file": "poc.md",
       "name": "zhxbai-fde-poc",
-      "title": "Demo与POC",
-      "version": "0.4.2"
+      "title": "Demo与POC设计",
+      "version": "0.5.0"
     }
   ]
 }

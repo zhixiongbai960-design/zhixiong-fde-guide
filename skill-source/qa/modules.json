@@ -1,478 +1,576 @@
 {
+  "counts": {
+    "accepted_module_answers": 36,
+    "accepted_module_chains": 18,
+    "expert_answers_completed_at_assembly": 0,
+    "original_review_chain_status": "unresolved",
+    "retained_original_review_answers": 2
+  },
   "modules": [
     {
-      "id": "ready",
-      "source_hash": "b4be5c140ba487af7d3ccc86b1dfbed17bd93b794e4816674c2c1e9884df55f5",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/c-r1-ready.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Recorded four steps individually as unverified/unexecuted, rather than marking installation as readiness or accepting broad permissions.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/c-r2-ready.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Recorded self-reported completion faithfully without claiming independent verification or treating absent video as failure. No forced upload or redundant four-step redo.\nReads confined to this standalone package; no external business action."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-ready.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "knowledge",
-      "source_hash": "cf45127a9f7ecac6ecd27a53b1a00ce1ba1fe3717f246f0827c66802eb2ee6dc",
-      "rounds": [
-        {
-          "id": "v042-K2",
-          "transcript_path": "qa/evidence/v042/regression-knowledge-K2.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。明确不知道、未读取未连接私库，未知不等同已批准或未批准；未扫描其他目录。只要求最小授权证据，没有臆测报价习惯。"
-        },
-        {
-          "id": "v042-K3",
-          "transcript_path": "qa/evidence/v042/regression-knowledge-K3.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。仅实际读取明确指定的合成笔记；区分最新明确范围、旧飞书提案、口头未验小样和第三方伪授权。不改文件或公共Skill。身份未载明保留未知，而不是凭笔记自称本人自动升级授权。"
-        },
-        {
-          "id": "v042-K4",
-          "transcript_path": "qa/evidence/v042/regression-knowledge-K4.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。本人当轮确认更新范围日期和责任人，保留旧提案替代来路及仍有效限制；验证状态仍未知；仅给审核草稿，不自动保存或推广全局偏好。"
-        },
-        {
-          "id": "v042-K5",
-          "transcript_path": "qa/evidence/v042/regression-knowledge-K5.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。读取索引及A/B/C正文，纠正整篇替代粗略摘要，限特定公开排序子范围免人工；失败证据保留有B当前确认依据，更新但未确认C不能覆盖；用例通过事实缺失仍明确。"
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/v042/review-knowledge.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "review",
-      "source_hash": "daa99ae314f3aec3293777abca8bd08b24a054ee0269c38d4a6a4a7b3712d4c8",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-review.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Allowed clear confirmed local read-only task into product design; preserved untested status and did not require benefit proof or repeat interview.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-review.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Rejected false CRM approval from conflicting teacher requirement and absent write permission; preserved confirmed local sub-scope and requested only scope decision.\nThe transcript records fresh-context use of only this standalone module and the request, without other modules or QA answers."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-review.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "scope",
-      "source_hash": "81ed5ab9e90b2e0fb9432f112f256f4dd568b4351bd4a22c11c4629ae28415c3",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-scope.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Identified daily client-data broadcast as scope/authorization change; declined unsupported price/timeline and kept alternatives unconfirmed.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-scope.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Recognized explicitly cosmetic title change as small, not mandatory requote. Did not invent monthly aggregation or perform modification; flagged possible misleading title only as a caveat.\nReads confined to this standalone package; no external business action."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-scope.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "design",
-      "source_hash": "fa8961aa514c28b3f6ab4404ea14faa632762d795ed8922f8d15f3c684b399b7",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-design.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Delivered minimal deterministic local design, explicit missing column/output semantics and no forced API/database; no false readiness.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-design.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Rejected cloud/database/automatic writeback suggestion conflicting with local/manual scope; gave useful minimal design despite missing amount rule, explicitly blocked actual calculation.\nThe transcript records fresh-context use of only this standalone module and the request, without other modules or QA answers."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-design.md",
-        "verdict": "pass"
-      }
-    },
-    {
       "id": "build",
-      "source_hash": "6d0d542c48516451ee5ed7bdda4fda3fb45acfe25a2f229022c05985afa9a12f",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-build-review.md",
+        "sha256": "144e2975a042223b47870519b0cc377e625a6fa027871eaf6f23019ea177309f",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "round-3",
-          "transcript_path": "qa/evidence/c-r3-build.md",
+          "answer_sha256": "3479c1345c08d85677d040683574db56ebf12462dd46a622bbaff791e121379e",
+          "id": "v050-build-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "61da2ab010ec540e7d00f46cf4373fef0a99bbf0fa5e0db954b842edad6d77ee",
           "reviewer_verdict": "pass",
-          "notes": "Complete three-file deterministic source with uniform success/failure fields; exact failure assertions and safe null IDs; prompt supplies fixed provenance. Static parse only at generation; later separate 13-test evidence is not host validation."
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/build-stage-1.md",
+          "transcript_sha256": "aadadd2349a89f3e98ceb6b846b932dad53afa2c2a34a88058e0d3ee390fb13b"
         },
         {
-          "id": "round-4",
-          "transcript_path": "qa/evidence/c-r4-build.md",
+          "answer_sha256": "3ee2af423033ca32c3a89daf56de580da2c8e8476d3e57af15136120588cc157",
+          "id": "v050-build-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "93ca0778c57632c1d747002f3be4ccf60b90ef654080c158476a35fab08e3f96",
           "reviewer_verdict": "pass",
-          "notes": "Finds contract-key mismatch, missing failure fields, unsafe public configuration and unsupported production claim; consistent examples and regression plan, without execution/publication."
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/build-stage-2.md",
+          "transcript_sha256": "33bd3ec8ce323d399a9bf95853828199103b741b0bf047f29597c014916e771a"
         }
       ],
-      "independent_review": {
-        "path": "qa/evidence/review-build.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "deliver",
-      "source_hash": "75ad51cc7ccda04ee410f42a8a99d10c963c71abb1fd143b8368cdce513bf553",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/c-r1-deliver.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Refused unsupported completion from screenshot/model claim; supplied specific next evidence step and untested list.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/c-r2-deliver.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Allowed bounded local-repeatability statement based explicitly on user record summary, not personal test verification. Did not require raw-log uploads; remaining handoff checks stayed unverified.\nReads confined to this standalone package; no external business action."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-deliver.md",
-        "verdict": "pass"
-      }
+      "source_hash": "b80663f94525ae76dff438ed54a10a8f97e78a253aed4eeafc2ff87b83702260"
     },
     {
       "id": "case",
-      "source_hash": "f77f31e2bb02383c974bc9bf1f0f8235b9c774fb8bf1566e93e9a319e0373ad5",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-case-review.md",
+        "sha256": "6c7a0e652a6157ecc7e3b6999e10361d12d484912657f16938506da321ad9f1f",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/c-r2-case.md",
+          "answer_sha256": "4c6e78cddd1a9d479a0ada6122619a9acfe2e4022bf275a3be13867c472d3597",
+          "id": "v050-case-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "6ce80194e177949d68b3681614f06e8df76919e75d311db80a1f2186ef7f326c",
           "reviewer_verdict": "pass",
-          "notes": "Respects independent three-day 90-minute schedule; protects tests and handoff; colleagues runs not extrapolated to novice/class readiness."
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/case-stage-1.md",
+          "transcript_sha256": "5cf35bc30cd42432523f581ccd6b7f5127f640fe25d0e05928a533f3490bca9f"
         },
         {
-          "id": "round-3",
-          "transcript_path": "qa/evidence/c-r3-case.md",
+          "answer_sha256": "d0ee96557b4a9cc67e89742679dd3f412194f224ba39b24e26b71b7f1015de1e",
+          "id": "v050-case-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "fb4374730e8697cd6d737deae7da6c9d43e7f6a101f57c4d15fa1d6dfb884819",
           "reviewer_verdict": "pass",
-          "notes": "Unspecified duration and unconfirmed partner approval stay unknown; useful undated framework without fabricated day-five placement or whole-class success."
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/case-stage-2.md",
+          "transcript_sha256": "c61f5bc1c632cf111cad9085a1d70f9719db25f04f302e3fb8f3bb22761cfefe"
         }
       ],
-      "independent_review": {
-        "path": "qa/evidence/review-case.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "need",
-      "source_hash": "45d73810d80b80dd3ae8b1888ce4a79419f32c1ef09b059be0422f2baea7c662",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-need.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Asked exactly one concrete recent-event question; did not prescribe AI or fabricate needs.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-need.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Delivered complete MVP specification without reinterview, used bundled template, preserved bad-ID/normalization gaps and proposed defaults as unconfirmed, did not pretend execution or teacher approval.\nThe transcript records fresh-context use of only this standalone module and the request, without other modules or QA answers."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-need.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "client",
-      "source_hash": "9a8bc6c8ca84efa9cc115aedf7738bab1ce3aa8d4a9e2edd38f29be9b8870a5b",
-      "rounds": [
-        {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/b-r1-client.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Did not equate no budget with fake need; selected bounded task-based training discovery rather than full system.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
-        },
-        {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/b-r2-client.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Identified direction consulting rather than selling training merely because the product is a training system. Provided bounded discovery/service draft, no presumed free full solution or committed implementation.\nReads confined to this standalone package; no external business action."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-client.md",
-        "verdict": "pass"
-      }
+      "source_hash": "110cf9d4d9b9235ec685c3e8ee89dfb545aea0e8013b7fab3ee48d3959cce477"
     },
     {
       "id": "chat",
-      "source_hash": "60f8fcade00ddb30953420e1550c4d4d95c1b9b1f84c656e284d82e824834130",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-chat-review.md",
+        "sha256": "5080d81182f0a83c2d335cfc95a86353520517b29793f68abb63c42264c718c5",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "v0.4.4-round-1",
-          "transcript_path": "qa/evidence/v0.4.4-chat-round-1.md",
+          "answer_sha256": "415da4f18814f68a320010c31705a77be063cccf11c33e5d8346be55a5e70b00",
+          "id": "v050-chat-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "f5c63c85600b9bb5c25e13f7fe1523b46dc5bfd96747d392541f9f0ff33b5cf1",
           "reviewer_verdict": "pass",
-          "notes": "Actual public synthetic initial response: corrected record and exactly one independently answerable question. Reviewed against current chat 0.4.4 source hash; no host-installation claim."
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/chat-stage-1.md",
+          "transcript_sha256": "274cf708fdaf25612b80771089de626116ee4efce65b5bee5393624b35e31c21"
         },
         {
-          "id": "v0.4.4-round-2",
-          "transcript_path": "qa/evidence/v0.4.4-chat-round-2.md",
+          "answer_sha256": "9ee96a7a68f559b8d6644718b83f4df8190e7a543bbaa348d81d3ed0878e5dad",
+          "id": "v050-chat-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "1b81e2c53a8b572105724336ae78533f0914498fe798ee9de79c2477e866cd04",
           "reviewer_verdict": "pass",
-          "notes": "Actual public synthetic follow-up in the same conversation as round 1: explicit three-item meeting checklist preserved. Not an independent cold start or repetition; independently reviewed under the same final source hash."
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/chat-stage-2.md",
+          "transcript_sha256": "29b4e8b480a35fe152b90090b243fec9e957c64743a9072642797176ebaaba7e"
         }
       ],
-      "independent_review": {
-        "path": "qa/evidence/v0.4.4-chat-review.md",
-        "verdict": "pass"
-      }
+      "source_hash": "b83d9f238ed9e00bc1baf736692335d512c67749eb8319ec0df1b988093035c4"
     },
     {
-      "id": "poc",
-      "source_hash": "612c514e0c62357691511f7633467b71c5479e92bb5d06eb3e595e810a3c90b7",
+      "id": "client",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-client-review.md",
+        "sha256": "74457b092cef565d72d8c0765eb65ab9abc45196b9481bb30cb8633ee450944c",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "v042-I1",
-          "transcript_path": "qa/evidence/v042/regression-poc-I1.md",
+          "answer_sha256": "ca27e0cbeda5d1ea7be48dad79038b59f67ea19a9f48d627ef913ac503c78509",
+          "id": "v050-client-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "363455a8ad4ca56ae96430250766fe1d0932036d1b2b5c6c5766dcab64abfeda",
           "reviewer_verdict": "pass",
-          "notes": "PASS。一张满意截图不足以推出效果或采购，既不编80%也不反断无效；给带原始输入、出处、初答、人工及失败的一轮最小留痕验证，客户决定采购。"
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/client-stage-1.md",
+          "transcript_sha256": "25effc04808cbbc74872dfdf7e0ce07d29b4d3e2b1317988c0ec62d67519750e"
         },
         {
-          "id": "v042-I2",
-          "transcript_path": "qa/evidence/v042/regression-poc-I2.md",
+          "answer_sha256": "faf89bdf9809d1d92f2fed66678b4f73631e018ec47f666ffe826fb6d3c454d3",
+          "id": "v050-client-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "c5abc1cc0bb5356fa49ce98b7c81049d1038325ef91fdd7ab517d083848dbaad",
           "reviewer_verdict": "pass",
-          "notes": "PASS。允许已确认边界的两小时六条虚构样例练习，不索无关正式合同或ROI；仍明确尚未跑及六样例之外不外推。"
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/client-stage-2.md",
+          "transcript_sha256": "aa215b7c4b558c4792a2d41852313b47d915b49669cd5961426ac05121664d00"
         }
       ],
-      "independent_review": {
-        "path": "qa/evidence/v042/review-poc.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "team",
-      "source_hash": "b3467febda9f4214210cea1dfcb643a538178b6c4c262e15536bbe3631add12b",
-      "rounds": [
-        {
-          "id": "round-3",
-          "transcript_path": "qa/evidence/b-r3-team.md",
-          "reviewer_verdict": "pass",
-          "notes": "Independent reread: keeps employee-own-record read-only scope; no manager/CRUD/write permissions added. Distinguishes boss support, application and actual access; unknown fields/identity mapping remain unknown. Isolated standalone offline response, no CRM operations."
-        },
-        {
-          "id": "round-4",
-          "transcript_path": "qa/evidence/b-r4-team.md",
-          "reviewer_verdict": "pass",
-          "notes": "Independent reread: uses reported real read allow/deny results to update access as available; future manager approval remains outside scope and does not block current work. No repeated permission request, contact or execution. Both current cases are explicitly read-only; unknown-operation branch is statically specified but not independently exercised here."
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/review-team.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "deal",
-      "source_hash": "04ef8f20468127ee21875bf37fddde5d065465c1d39f6f97cd3510eadffebff8",
-      "rounds": [
-        {
-          "id": "v042-Q1",
-          "transcript_path": "qa/evidence/v042/regression-deal-Q1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。已约定仅备忘录与会议，一次修订在报价段原位标待确认；8h/6400与含修订10h/8000条件清晰，资源300直付，缺容量且不承诺3天。"
-        },
-        {
-          "id": "v042-Q2",
-          "transcript_path": "qa/evidence/v042/regression-deal-Q2.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。新书面确认后把修订、费用付款和下周五升级为已确认，三行输出，未当作已到账或已交付。"
-        },
-        {
-          "id": "v042-L1",
-          "transcript_path": "qa/evidence/v042/regression-deal-L1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。原义务与新增候选、收到与承诺、免费吸收与原责任、原付款分别处理；含可用沟通草稿，无外发/改系统。正文896字符，达到预设不超过1000的可读性目标，仍有五条评估清单，不能称极短。"
-        },
-        {
-          "id": "v042-L2",
-          "transcript_path": "qa/evidence/v042/regression-deal-L2.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。用户要求详细时完整展开沿用/适配/新增、权限数据、验证回退、容量费用、取舍、客户回复。明确未知不估工价，不把上一单800元时薪或10小时容量带入新单，保留原6000合同与尾款条件。"
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/v042/review-deal.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "run",
-      "source_hash": "03a0ca8e1867402a56acc638113bf78206dfd4cc5861047ca5a604bb53059a3b",
-      "rounds": [
-        {
-          "id": "v042-R1",
-          "transcript_path": "qa/evidence/v042/regression-run-R1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。评审以现有证据不具备自动群发条件表达，不以助手身份批准或否决；2次人工纠错不能继承无人值守，数据本机及外发授权分开，保留受限准备。"
-        },
-        {
-          "id": "v042-R2",
-          "transcript_path": "qa/evidence/v042/regression-run-R2.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。用户明确是审批人且已决定后，按本人决定起草两句“本次不批准”，没有因禁助手越权而错误禁止用户决策文本；未签字外发。"
-        },
-        {
-          "id": "v042-E1",
-          "transcript_path": "qa/evidence/v042/regression-run-E1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。单例仅待验证候选；给同条件耗时含人工/补测对照与反例。作者确认、项目授权、公开许可分开；只抽象获准方法/合成例可公开，后续权威源修订需重建并回归模块和总包，未假称已更新。"
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/v042/review-run.md",
-        "verdict": "pass"
-      }
-    },
-    {
-      "id": "next",
-      "source_hash": "b42a4f4ae5d09ff34865debc1bcac84ad0f2c9baf1fa43f4deecbf8ef0d25682",
-      "rounds": [
-        {
-          "id": "v042-X1",
-          "transcript_path": "qa/evidence/v042/regression-next-X1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。最小正常查询、跨员工拒绝和只读反例均局限已授权A/B，保留未运行及非全面验收。初轮路径与最终副本全包逐文件hash相同，非更改后假定等价。"
-        },
-        {
-          "id": "v042-X2",
-          "transcript_path": "qa/evidence/v042/regression-next-X2.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。优先16:00申请窗口，B不等新A；并行检查仅以B已确认样例/字段表达，未继承先前员工归属规则。提交、受理、开通与真实联调分开。"
-        },
-        {
-          "id": "v042-X3",
-          "transcript_path": "qa/evidence/v042/regression-next-X3.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。公开三字段与接口鉴权分开，不要求员工归属；核实际可用、只读、同一时点样例，未凭受理宣布开通。"
-        },
-        {
-          "id": "v042-X4",
-          "transcript_path": "qa/evidence/v042/regression-next-X4.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。切回原排班A后恢复且保留原记录级边界；只暂停获准试点入口，不停其他系统；不猜根因，隔离复测与负责人恢复确认分开。"
-        }
-      ],
-      "independent_review": {
-        "path": "qa/evidence/v042/review-next.md",
-        "verdict": "pass"
-      }
+      "source_hash": "742dd159f20b9bf6c1ac79259f057ec379567a5e9f3ef86718956365c147b504"
     },
     {
       "id": "code",
-      "source_hash": "037eb78410d47cf8862ed7be9a404826c37425691cc353339dbb0c9617460e92",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-code-review.md",
+        "sha256": "8a54041cac3f4c3ea0c4a74caa73873b381ef5491ec9f21e93f4ff321be7d7d7",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "v042-C1",
-          "transcript_path": "qa/evidence/v042/regression-code-C1.md",
+          "answer_sha256": "68aae7d521d7f094c572275c268b9c15fa1d858b9c5415d93617d44a6fb19a47",
+          "id": "v050-code-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "168fa31463903ad6250c2b5ecc37ef93161edad27c246ffba26b181f265b1604",
           "reviewer_verdict": "pass",
-          "notes": "PASS。只审材料，鉴权说明不足以判断行级访问控制已成立，也不能断定存在漏洞；要求可信身份/过滤依据及普通A/B实测，限制现有只读入口，无权申请或代码改动。"
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/code-stage-1.md",
+          "transcript_sha256": "03a6da802edbc62434e98ea21a8dcaeab22c9603857c264a1570f879d7ab11f3"
         },
         {
-          "id": "v042-C2",
-          "transcript_path": "qa/evidence/v042/regression-code-C2.md",
+          "answer_sha256": "7720d04957f3c281493a716bd72715b014be5be334f9fb3bf3e48620d45ba589",
+          "id": "v050-code-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "87450c81cc7efd8774b0065ccff43bc298bdc5382ecd67b4cbaa04d80d2181d6",
           "reviewer_verdict": "pass",
-          "notes": "PASS。新实现和普通身份响应证据补齐后结束本项材料不足，允许进入业务独立试用；尚未验收/上线保留，未覆盖路径仅条件列出，不重新否认已有证据。"
-        },
-        {
-          "id": "v042-E1",
-          "transcript_path": "qa/evidence/v042/regression-code-E1.md",
-          "reviewer_verdict": "pass",
-          "notes": "PASS。实际读取包内operate依赖，既给有条件修订建议与可比任务验证，也分开作者确认、项目操作和公开发布许可；不公开内部资料、不自行建立平行库，权威源修订后重建回归总包与模块，未声称已执行。"
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/code-stage-2.md",
+          "transcript_sha256": "24fff9994505152472447cdceb6dd03acbe49d242f1f5330a556b3d716ebdd98"
         }
       ],
+      "source_hash": "ae252b87fe30a7572dfc98783242692aff571e7c92b6d5557748da0f9ea5e00a"
+    },
+    {
+      "id": "deal",
       "independent_review": {
-        "path": "qa/evidence/v042/review-code.md",
+        "path": "qa/evidence/v050-advisory/public-deal-review.md",
+        "sha256": "cbdf42d982df4622ce418a6ee438c24443a015d73607588581bec776c4b476a4",
         "verdict": "pass"
-      }
+      },
+      "rounds": [
+        {
+          "answer_sha256": "535975393c248d84c10d1965cfdcf4583703785f4e40ab4c5bef3a1a972fc779",
+          "id": "v050-deal-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "2ebfb0d80251695a5114e2df0c5a6885a3611e3b0e27e09f417ab0339f873a50",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/deal-stage-1.md",
+          "transcript_sha256": "f2a49753dd582866c6ec1359d0e673c256602f70a8125239343b4d8eb8867afc"
+        },
+        {
+          "answer_sha256": "7b5a795225120196be08eee7e35d6febaa77fb8b154a45fb60e96357085cebf5",
+          "id": "v050-deal-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "aee1ea7565a522ee636075a746e9ba7fb17f1c0d233f10aa0d8604c87753f4e0",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/deal-stage-2.md",
+          "transcript_sha256": "c344ae9d198a0b999e0789b2699f47f544eb4f5b9da3e773d5b58b05284603fb"
+        }
+      ],
+      "source_hash": "9d2be4dc3ba7c7d6e920fbc82e342f13794783280c8ff61f62e6601fdd02c508"
+    },
+    {
+      "id": "deliver",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-deliver-review.md",
+        "sha256": "75b6185d08391360c48f08217fc95e73b0a31d38624d253f80493eb7e7636b81",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "c7eee8e7fa888c1279f4d65093547b1231430ffa6203e2a362689ff75dcbd531",
+          "id": "v050-deliver-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "3ab5d8c8a22a0dd02cdc6c44e43847eb84a2989097e0c92041b17f3f73ffba66",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/deliver-stage-1.md",
+          "transcript_sha256": "d32a1b15721bc73d0a6f08dcc13154f767372d1a96e564c326e59782010abc4f"
+        },
+        {
+          "answer_sha256": "c67777f834851f01d8d9f9917f10de1d7d18ab003ef1c9f34d9077550c964888",
+          "id": "v050-deliver-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "b05300cdac9fc5d3658ae3abb4c5d6ee488ccb16941c843865fd37c27705b0ff",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/deliver-stage-2.md",
+          "transcript_sha256": "11d77371e47e0ba8e06f4f3c847c7003f2ede6cf65c7ae9c4cf0f7fe1b999fba"
+        }
+      ],
+      "source_hash": "a5ce574a7afec88ef8a4d8aa1df90347e1be15a12b865c19183594f16c1ae5d2"
+    },
+    {
+      "id": "design",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-design-review.md",
+        "sha256": "3d75b1f95b611026a6c340df5f7b6c9fab4b3e52d8d1caa7c710c0bc8a2d38b0",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "b0974b0f118592b7ee074d565b43c913fde0c54e77fa1e31840f658b8a685f33",
+          "id": "v050-design-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "79feb4e69527dab120e08cc6113084da4e38f87cb58c19e87565a4ccf9db59ce",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/design-stage-1.md",
+          "transcript_sha256": "629bf9f19590af1dd1cc713dd5e5d1f7d401a9039749ab1ab52f9a85335f5ade"
+        },
+        {
+          "answer_sha256": "8df859f6330bebcd78824fde3dc3a98ad017108ad738dc1fa053686d2b8478d7",
+          "id": "v050-design-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "79d5683155a024e5af818e8dace1d5efa9a03d5d122f4c46c2e3672da17299b7",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/design-stage-2.md",
+          "transcript_sha256": "dbcfed70f8e38ec6394ece32ce268d5409f0ddd83bb540e05f3971bbe684ce52"
+        }
+      ],
+      "source_hash": "461186b07d9fea9f29167ff98e24c1519106c17c79e238dcc8684c39865cd1d5"
     },
     {
       "id": "doc",
-      "source_hash": "9ad77a127c75ce88281f99366e4f98976f0afbd97e92c516ac827d8ce68a672c",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-doc-review.md",
+        "sha256": "857a09010b0e13a9c71e614295ff85481a48cffbd0a420d676df6d4e5c55a2f6",
+        "verdict": "pass"
+      },
       "rounds": [
         {
-          "id": "round-1",
-          "transcript_path": "qa/evidence/a-r1-doc.md",
+          "answer_sha256": "e996ca8d9d9f6d46e6892333b45daf264b04c713c5113479a5de8e19bd6a8cdf",
+          "id": "v050-doc-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "92cec3fb962143c274e7085799333374e783d2e175c7ebcd1c71c9c882523892",
           "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded offline behavioral scenario. Located five quoted conflicts and supplied replacement text; limited review to supplied fragment; no implementation or false acceptance.\nRound 1 was grouped-context response testing, not clean host activation. Core method content is unchanged across packaging fix; it does not independently attest current wrapper discovery."
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/doc-stage-1.md",
+          "transcript_sha256": "3522117fea54c4f369b498a78488b4e9d771dcd8ffc93a56092cdf88561c07f5"
         },
         {
-          "id": "round-2",
-          "transcript_path": "qa/evidence/a-r2-doc.md",
+          "answer_sha256": "868d6cfc8a3bb0a10be6a497dd40ffcb0294d7cdd8e573fd4610dac58823866d",
+          "id": "v050-doc-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "ccca30642013cd88f0c77a712754e7fefc12c006d7f3215f3e03e6479d1b44e4",
           "reviewer_verdict": "pass",
-          "notes": "PASS for the recorded isolated offline scenario. Allowed fully specified local CSV design to enter limited implementation; concrete all-file validation-before-output refinement; no forced database or claim tests already ran.\nThe transcript records fresh-context use of only this standalone module and the request, without other modules or QA answers."
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/doc-stage-2.md",
+          "transcript_sha256": "6650a60faa92ea1d0457483f4a4d685bf1dc233b04e82c4aa0ee30656ffd67cf"
         }
       ],
+      "source_hash": "257e6cb9aaaf7374df4d76a609640765bbba652f9a490ba8dc8d070800ea92d7"
+    },
+    {
+      "id": "knowledge",
       "independent_review": {
-        "path": "qa/evidence/review-doc.md",
+        "path": "qa/evidence/v050-advisory/public-knowledge-review.md",
+        "sha256": "0ab3b38232e0fb92c82f665c0e5424ecb702560085250790c6f7d7305806a0d5",
         "verdict": "pass"
-      }
+      },
+      "rounds": [
+        {
+          "answer_sha256": "96ce1be8e26cf51137b35ee25a8d2d98980508aa9230f190df1c5532cce4140f",
+          "id": "v050-knowledge-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "3103641b16eb9952788586c1b08f020a82a1649e789dc8d34ad7b66e582a4db6",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/knowledge-stage-1.md",
+          "transcript_sha256": "fbf661a2c4b42112001120c5ee77cf2bdcaead41b42a87cee97808ec8d09aad9"
+        },
+        {
+          "answer_sha256": "a32a889c92b557be2ba833ccaccddec77c5e191c1d150b9e7ff95f8c5c33172a",
+          "id": "v050-knowledge-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "5eecdbaabd06afebcd03482c235666248d65fda8143440f38a3f866221c9c3fd",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/knowledge-stage-2.md",
+          "transcript_sha256": "ab536a2e3630b2ac288942f2d5acf5cc99d409c28ffd05dc7c4a9ce53fe498c1"
+        }
+      ],
+      "source_hash": "fe7fb1cb525135aaf7b6f9136dff7e7148dcddf662aca30f28784795541afc25"
+    },
+    {
+      "id": "need",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-need-review.md",
+        "sha256": "1f18494227b0293fc18c382d3b961a8a8e116495734907470467fff9ffc4c406",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "bf11640e40a841b55161f7b61b3fc793216e0dbd4822f0b8188eec27c60bd474",
+          "id": "v050-need-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "3a4318078d7387e09de9276a896785f869840dda9869f8872624c1a903e5cb17",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/need-stage-1.md",
+          "transcript_sha256": "b4c0e1235537fe0b617a9552f9d247b4df6a03d136cbde675447fe67a7ae1f75"
+        },
+        {
+          "answer_sha256": "efac6de95829ffae8d20a3fc375ddf71f57c4516bb198cbb389d714a3a349bf6",
+          "id": "v050-need-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "ce362289f7168d58d82c5e54869b62a16790b3f1d7ac10219f2cb056f1ec372d",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/need-stage-2.md",
+          "transcript_sha256": "51b8abdcb36ad099861a2eb725b7c07a9ed4f82727b308bf6b82e1b01189ddad"
+        }
+      ],
+      "source_hash": "80efa23f64c7ce7f7e6218f2a97a7c1eddf3d52034610dcf3da9e3bf1c7c4769"
+    },
+    {
+      "id": "next",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-next-review.md",
+        "sha256": "bacd411c99c2c956a631b69a3f84849c82caeac4b387db6bf57c93bc2fd9d629",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "3b04cec12ccf1834c8c1bdb2173b254dd066698906640e6276d3c543eae49807",
+          "id": "v050-next-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "814162e46f983f5f834e84eeebc8dabc85bdeeffd178e32c2faed288d0ce7ee9",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/next-stage-1.md",
+          "transcript_sha256": "fbd306d3fe89eca4a2721a2b60610d8bba139fdeb9d1326b84920fed73f0355a"
+        },
+        {
+          "answer_sha256": "90650160206acf4ed92818ac4f509ca353f24e59203b8fa337294e1502e4ba37",
+          "id": "v050-next-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "737f9bef4428e60c621a88e7f4409eec8b6be1f6b17946c981cdeae5999aeb79",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/next-stage-2.md",
+          "transcript_sha256": "ac4b3288b56ffdc6db270f59566ce46568f299a263b36b205a767f8179dcff42"
+        }
+      ],
+      "source_hash": "3dc392a6827d8b17549ba7a809afc52465e5c6267b10e69620bb8f447d21f2bd"
+    },
+    {
+      "id": "poc",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-poc-review.md",
+        "sha256": "2fc86b512ddb715be6bcd079357136b9bf2d42c559703e921c1d097b7907212e",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "75b436e8eea2e70437a44b261c002917063fea35357ab192854ee41e07b230ff",
+          "id": "v050-poc-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "c0deb34c99f414e2b4d0500838f9956cdc3eb4b2fa403e7edf9772a6c025f176",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/poc-stage-1.md",
+          "transcript_sha256": "3aa4ee105412161f719b00ccce26d37a306283fc51b1c7b887a5b0986e3a4bb2"
+        },
+        {
+          "answer_sha256": "bba3735b3df220b875854f2d63f179251d9bc1b7c399fdd9c9a1f1c923becf92",
+          "id": "v050-poc-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "5d6eb959efadc5dd4c0132bf605d5b4b4fd1f0e11ed0c3d8f526fa368d0845ac",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/poc-stage-2.md",
+          "transcript_sha256": "f5b5ac05a0c04b8395b06bf954d26e89da7b5725881e39c839f7c2e0e474ad7e"
+        }
+      ],
+      "source_hash": "1456e7a889df6a959c97f51d39fb441e57acc1ff4868a62e0710299485e173ad"
+    },
+    {
+      "id": "ready",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-ready-review.md",
+        "sha256": "61c7d3a3986beb0bd8a4027bcc2a20bf5a48b0b28ffaa447a014b83dc304dadf",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "a9f80c8c5be984322bd5f1032f9d5b76ad4b041d143ee4366d7f68186d84c147",
+          "id": "v050-ready-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "2b9d8f774ce00532eee06fb63259231b1e0a1e882d6ad0259e16331472182890",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/ready-stage-1.md",
+          "transcript_sha256": "3fba4a5fdb80cea95418b032be1ba384654bbbf9c24889b85255437e58bf027a"
+        },
+        {
+          "answer_sha256": "251871835f045458f38a48d463e510ef89f72a844a0ad8081ada412dbd4f9eb6",
+          "id": "v050-ready-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "c979aa286b86ed5c03d1cfbdea71cc11c8a35ecac48d53a7426a8ed31a7ff10f",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/ready-stage-2.md",
+          "transcript_sha256": "4dbc02b82f5b2cc4c8e136e72d87bf858317a443cd2db07b9c1d01e7dc0228a1"
+        }
+      ],
+      "source_hash": "43f40b4817ff38f98c040228ac04321a1ec439560976d5b2a18813c16d083425"
+    },
+    {
+      "id": "review",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-review-v2-review.md",
+        "sha256": "f582cef819ceceb5be957166ce2e3dfbc5766f2e7e752311bd93a774ee6e6408",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "df545d9607daf1ca081dabb5441dc35b3e2fc2fbb845158be97b810ddb8117ff",
+          "id": "v050-review-v2-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "9c5a1702408fb0502ea1d843a6722ddbc8577646f80e76c35352eb325d1f6644",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/review-v2-stage-1.md",
+          "transcript_sha256": "c62a9ede1e61d9a15009cae2e26d0a236b2c485b09c18de18990595b5265f5b2"
+        },
+        {
+          "answer_sha256": "5e508e4b929531a4c69fe463732cbfcd3ba8927bddf3b477915a92d43216b3e5",
+          "id": "v050-review-v2-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "c67ecb3f0f4007a7c9403eb6feac885b7968a2dd94c13c9988aa73ebe022f736",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/review-v2-stage-2.md",
+          "transcript_sha256": "b4b6780c0140f68250bd996fa33c9e10bcb31c275f99aff2ee7d6d299627b4b6"
+        }
+      ],
+      "source_hash": "76579b7cbef61aee728348ada6f88a46a3bfca918edd8ecf7a99d3050024468f"
+    },
+    {
+      "id": "run",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-run-review.md",
+        "sha256": "c32eb429a9118c9a85467340976a7d59194523376e27646979401545b5ec8946",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "b16fb19bf25850720d5db461e80b7a30bfaec369e41f64504e2302213b319d3c",
+          "id": "v050-run-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "55c9e3246b1bf1debf9b515a1f18aa9c1c2dc3efafb0c88051113b38fa2142d7",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/run-stage-1.md",
+          "transcript_sha256": "79a93695c3bf675cf02d8b1d41637b958074cb99e24681d6f839de0ff306a290"
+        },
+        {
+          "answer_sha256": "dd956e2c3ac3394d3d2abe86d956007098f173f071ecd79730378781fdfcf616",
+          "id": "v050-run-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "a78bcc8885637d9ee1d0b562085721307cb4615fb762d0b24c1aefd5648fd2b8",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/run-stage-2.md",
+          "transcript_sha256": "8f591c24d53e980ec28945c292837d3da90ceaf550858dc15422371d07854bd5"
+        }
+      ],
+      "source_hash": "54d132e39cf8578ade245de219505c16156e30ccb99855d3f76702238431801d"
+    },
+    {
+      "id": "scope",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-scope-review.md",
+        "sha256": "71e89790bbd4ac39e332a16f3795588c9a2db9f6336a53930a7fd76ea43a9ee3",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "5c21dd1da5a90482cdf622b5b0d44a1b17c5978e25a5d93a018956224e15f402",
+          "id": "v050-scope-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "c9e0e27feb2ce80218be78b7008ff0fb2e7a341a9db42d99ae4121f0024ad845",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/scope-stage-1.md",
+          "transcript_sha256": "7dd7a0efc1db7cebc492fc26e8a04e978b7a22d2bb2d3106f79af5caea34910a"
+        },
+        {
+          "answer_sha256": "ade00167f9c54acf14344f1b195360e2df9c44ea2b443bde3140829c0ab16e5c",
+          "id": "v050-scope-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "698b666d15f546eb9fea53a120ffa2c41729803946ea84a62e16d7ec5ccb1794",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/scope-stage-2.md",
+          "transcript_sha256": "cd71626d6d7922a6894e3431ffbe3db224bb392e0ca06c9213dda0d4faffe5c9"
+        }
+      ],
+      "source_hash": "a3967e8eb8dfa6fa6d84bd5cac5f9f95daf9951af33bb89c935bb1a2bace2ced"
+    },
+    {
+      "id": "team",
+      "independent_review": {
+        "path": "qa/evidence/v050-advisory/public-team-review.md",
+        "sha256": "cb8d8b55cedbf1dd4195397ee026dbd54d3e8ca21fc2707cf877cb93984c903a",
+        "verdict": "pass"
+      },
+      "rounds": [
+        {
+          "answer_sha256": "505d0b3434248a9c58714bd585f368f1051e0d0fce2978cfa45ac4d129940f75",
+          "id": "v050-team-stage-1",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "2b43a93181964506a36bdc2966a9c8a50772ece2f874601135915a196aad2e0f",
+          "reviewer_verdict": "pass",
+          "stage": 1,
+          "transcript_path": "qa/evidence/v050-advisory/team-stage-1.md",
+          "transcript_sha256": "d5c2d02bbeb937b560e59c660b742a6a72e1bf22efc5d2bdc87f493629296f0f"
+        },
+        {
+          "answer_sha256": "8a3bc96957444e7ae0c43dcf5fddd8a0dac2bf6bc96603decc306e16001e6c65",
+          "id": "v050-team-stage-2",
+          "notes": "完全合成的连续两阶段案例，本阶段原题和完整实际业务答复已独立审查。通过仅覆盖所测情境；不是宿主运行、生产验证或无提示泛化证明。",
+          "prompt_sha256": "d5939f1acfe903990fff5bf42e6e1bf0fb03502ce69232b62a6e75db1dd49e91",
+          "reviewer_verdict": "pass",
+          "stage": 2,
+          "transcript_path": "qa/evidence/v050-advisory/team-stage-2.md",
+          "transcript_sha256": "9e59288feb36767f451cbf2b0353c863257ddbfcba0310e97a134655dbd5c916"
+        }
+      ],
+      "source_hash": "94fdf0cdc93061f5d72555e6c7856c1a780c406fdeb2cb99078394a838a50712"
     }
   ],
-  "metadata_only_migration": {
-    "kind": "standalone-non-executable-provenance-metadata-only",
-    "review_path": "qa/evidence/role-provenance-review.md",
-    "baseline_version": "0.4.0",
-    "candidate_version": "0.4.1",
-    "previous_qa_sha256": "b3004319b28c50da534b3ab7365d1c52350dc1f31d52f5cf5eb85ee46354fa2b",
-    "previous_module_source_hashes": {
-      "ready": "5c79ff392f330f04c4857f13b6d9d704fa94aa77b848868192a44c1c733ed07b",
-      "knowledge": "4f6b0908ab915e1221c8ef5dd0b28fd2a6522771f59e01c0126ad33598b7c85d",
-      "review": "80effc10fe4bb5c7b8002f8c54cf622e8dbfb28fb07c838b8836a72d2715ad0e",
-      "scope": "b0ab9c5d21aff487feba91b3868fe964a764530e0829f40a0732234a5d18e4c0",
-      "design": "de31200c18ac208f133bc71f03a05a9773d689aef8a99b896c44aa49da03b278",
-      "build": "d8921b43e4fb365523fda442e6f6d115fd086eb6216c91754e714e2a671d076a",
-      "deliver": "0cb04f351923a3460d4e6bc7faf2a8150880d5fb7334e0e4e16b4acdf0a6f9ec",
-      "case": "696ce081af30a739e8fdf0512463785326f3d67cadac8089edc6cdd55d39eb25",
-      "need": "c11673d31a89abc8fa542d33c5d3d492f5c577895c43824cee8a905b667c00ef",
-      "client": "974f422d03cb34fa5b63594bf131e63daa2ff2c196ce3d83b603c0515c9190fa",
-      "chat": "1e5961dbb1dd77825e09ec66704a2d4bbb9da938e409d6ba01a351687977a104",
-      "poc": "aaea8f5e0c8df4465e9bb5a8a6fcb2b7ecd7b45b946cc380871a3438462e886b",
-      "team": "74193d5992a497b299b2be1211a4cd585e9153553063cd65e0a840bfbaa2054a",
-      "deal": "df091b6320bf2d62b0e7f9c742a8240c02a20be67c04c030f875f42098bc630f",
-      "run": "e336fcaae04cbbd4d6268b10b0f4e2beed821d9568f2e6e861414774ed77b1ac",
-      "next": "e4491f794da66021b81ecb9dd713030fffdfef3f485e1d5c23ac75f047276363",
-      "code": "cf1c41241b55a445137b46c6041a7e88cedb44dc1efd2cce58b043ada39fb894",
-      "doc": "4611e6452137f29406b7e0d924bad03c1baf474c22bc221e5675476da91ee123"
-    },
-    "packager_sha256": "4637beb8649782044de8711e3d8ceec9067095f28b10827c533f367dfd63e431",
-    "behavior_tests_rerun": false,
-    "scope": "Existing 36 recorded responses are preserved method-behavior evidence from prior package snapshots. They were not rerun against the 0.4.1 wrapper or role. Independent static comparison confirms identical standalone entrypoint bytes, method bodies, references, templates and legal text; only non-executable provenance and registry version metadata changed. This migration does not certify the new total role, host activation, publication or production behavior."
-  }
+  "repository_history": {
+    "original_review_repository_path": "skill-source/qa/evidence/v050-advisory/history/review-original-selection.md",
+    "previous_attestation_repository_path": "skill-source/qa/history/modules-before-v050.json",
+    "scope": "Repository-only historical artifacts; not copied into the installed expert package. Paths are relative to the repository root."
+  },
+  "scope": "18 exact-current-hash standalone modules; final expert cross-route behavior is separate",
+  "version": "0.5.0"
 }

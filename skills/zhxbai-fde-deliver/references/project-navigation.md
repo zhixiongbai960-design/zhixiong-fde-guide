@@ -2,4 +2,4 @@
 
 本包只包含以下方法，按当前任务读取，不要求安装其他技能。
 
-- [验证交付](methods/deliver.md)
+- [验证策略与交付评审](methods/deliver.md)

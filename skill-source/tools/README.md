@@ -1,12 +1,12 @@
 # Offline packaging
 
-## Current expert distribution (0.4.3)
+## Current 0.5.0 advisory packages
 
-Run `python3 tools/package_expert.py build` from `skill-source/`, followed by `python3 tools/package_expert.py verify`. Output: `dist/expert/zhixiong-fde-expert/`. `rollback` swaps the current and previous verified expert build. This thin distribution layer reuses the unchanged `package.py` source/QA gate and safety machinery. Its identity comes from `packaging/expert.json`; its learner manual comes from `docs/专家技能使用说明.md`. It changes only the total package identity and adds the manual, UI metadata and release metadata. All method/article/license/evidence bytes remain the same.
+All 18 module versions and the expert/source snapshot are 0.5.0. Genuine current-hash module responses and independent reviews are bound in qa/modules.json; the old attestation is retained in qa/history. The original ambiguous review chain remains unresolved history, while the separately pre-reviewed review-v2 chain supplies the current accepted pair.
 
-`package.py build-total` below reproduces the legacy `zhxbai-fde` 0.4.2 identity. It does not produce the current expert package. Keep the published legacy directory frozen; do not replace it with a renamed folder whose internal name differs.
+`python3 tools/package.py verify --target modules` checks the exact tested module trees. `python3 tools/package_expert.py build` and `verify` use the unchanged QA gate. The final expert package needs separate sequential cross-route tests before a full-plan pass can be claimed. Packaging, behavior, publication and real host installation are distinct results.
 
-Run all packaging tests with `python3 -m unittest discover -s tests -v`. These tests are separate from live host installation and semantic behavior evaluation.
+`package.py build-total` produces the legacy name from current methods, not the frozen 0.4.2 package. Do not replace historical total or fde-* entries. Run the current full packaging suite with `python3 -m unittest discover -s tests -v`; only the expected expert version was adapted to 0.5.0, with negative tests and original baseline preserved.
 
 ## Original method and legacy-total builder
 

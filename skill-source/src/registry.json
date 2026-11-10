@@ -1,16 +1,16 @@
 {
-  "version": "0.4.4",
+  "version": "0.5.0",
   "author": "白志雄 / 志亚科技",
   "modules": [
     {
       "id": "ready",
       "name": "zhxbai-fde-ready",
       "title": "课前就绪",
-      "description": "检查FDE课堂工具、材料、运行与输出就绪状态；适用于课前核验，不自动安装或扩权限。",
+      "description": "给 FDE 课堂就绪清单、定位条件并核对学员操作证据；不代安装、编程或声称学员独立完成。",
       "method_file": "ready.md",
       "articles": [],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "knowledge",
@@ -24,7 +24,7 @@
         "fde_19.md"
       ],
       "dependencies": [],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "review",
@@ -42,7 +42,7 @@
       "dependencies": [
         "need"
       ],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "scope",
@@ -60,13 +60,13 @@
       "dependencies": [
         "need"
       ],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "design",
       "name": "zhxbai-fde-design",
-      "title": "最小方案设计",
-      "description": "把确认需求转成MVP流程、组件、数据和测试设计；用于方案设计与已有设计的基本核对。",
+      "title": "产品与最小架构设计",
+      "description": "把确认需求转成具体 MVP 流程、组件、状态、接口、数据、权限和测试设计，提供工程交接，不直接实现。",
       "method_file": "design.md",
       "articles": [
         "fde_09.md",
@@ -76,13 +76,13 @@
         "fde_31.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "build",
       "name": "zhxbai-fde-build",
-      "title": "业务Skill构建",
-      "description": "将已确认业务方法封装为可复用Skill，区分方法配置并定义正常异常测试，不自动安装发布。",
+      "title": "业务Skill方法设计与交接",
+      "description": "为已确认业务方法设计 Skill 规格、配置边界和正常异常验收，交专门执行者实现；不编写业务 Skill 或脚本。",
       "method_file": "build.md",
       "articles": [
         "fde_09.md",
@@ -91,13 +91,13 @@
         "fde_17.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "deliver",
       "name": "zhxbai-fde-deliver",
-      "title": "验证交付",
-      "description": "按需求和实际运行证据验收、排错、交接及按需路演复盘；没有运行证据只给计划和未验证状态。",
+      "title": "验证策略与交付评审",
+      "description": "按需求设计验证、分析失败证据、评审验收交接并复盘；修复与运行由执行者承担，没有运行证据保留未验证状态。",
       "method_file": "deliver.md",
       "articles": [
         "fde_09.md",
@@ -109,7 +109,7 @@
         "fde_29.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "case",
@@ -125,7 +125,7 @@
         "fde_31.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "need",
@@ -139,13 +139,13 @@
         "fde_22.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "client",
       "name": "zhxbai-fde-client",
       "title": "客户与机会",
-      "description": "判断FDE服务类型、线索成熟度、沟通和售前投入，产出可兑现的下一步，不默认免费开发或保证获客。",
+      "description": "判断 FDE 服务类型、线索成熟度、沟通和售前投入，给具体策略与下一步建议，不代用户承接实施或承诺。",
       "method_file": "engage.md",
       "articles": [
         "fde_01.md",
@@ -157,7 +157,7 @@
         "fde_06.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "chat",
@@ -173,13 +173,13 @@
         "fde_21.md"
       ],
       "dependencies": [],
-      "version": "0.4.4"
+      "version": "0.5.0"
     },
     {
       "id": "poc",
       "name": "zhxbai-fde-poc",
-      "title": "Demo与POC",
-      "description": "区分Demo和真实POC，明确验证范围/投入、用证据形成效果标准，并判断转正式的条件。",
+      "title": "Demo与POC设计",
+      "description": "区分 Demo 和真实 POC，设计验证范围、实验与投入，用证据分析效果及转正式条件；不开发演示或连接接口。",
       "method_file": "poc.md",
       "articles": [
         "fde_21.md",
@@ -189,7 +189,7 @@
       "dependencies": [
         "deal"
       ],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "team",
@@ -203,7 +203,7 @@
         "fde_24.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "id": "deal",
@@ -222,13 +222,13 @@
         "fde_29.md"
       ],
       "dependencies": [],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "run",
       "name": "zhxbai-fde-run",
-      "title": "运行与复用",
-      "description": "验证FDE日常使用和客户接管，分流维护责任，并按真实条件提炼可复用方法，不把看护成功当无人值守。",
+      "title": "运行评审与复用设计",
+      "description": "评审 FDE 日常使用和客户接管证据，分流维护责任，提炼可复用方法规格；不修业务代码或生成 Skill/脚本。",
       "method_file": "operate.md",
       "articles": [
         "fde_15.md",
@@ -238,13 +238,13 @@
         "fde_31.md"
       ],
       "dependencies": [],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "next",
       "name": "zhxbai-fde-next",
       "title": "项目卡点推进",
-      "description": "从本轮结果、紧迫风险、依赖和可用窗口选择下一有效动作，支持跨阶段并行/回退，不强迫固定流程。",
+      "description": "从本轮结果、紧迫风险、依赖和窗口建议下一有效动作及负责人，支持并行/回退；不代最终决定或接管工程实现。",
       "method_file": "progress.md",
       "articles": [
         "fde_18.md",
@@ -253,13 +253,13 @@
         "fde_32.md"
       ],
       "dependencies": [],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "code",
       "name": "zhxbai-fde-code",
-      "title": "应用工程检查",
-      "description": "按确认范围构建或检查FDE应用，区分需求覆盖、单测、真实入口和业务验证，不把写业务Skill替代工程任务。",
+      "title": "工程方案与证据评审",
+      "description": "为 FDE 应用/接口提供具体工程方案、交接和既有代码/日志的设计级评审，区分需求覆盖、单测、真实入口与业务证据；不承担实现。",
       "method_file": "engineering.md",
       "articles": [
         "fde_09.md",
@@ -273,7 +273,7 @@
         "run",
         "deliver"
       ],
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "id": "doc",
@@ -291,7 +291,7 @@
         "fde_23.md"
       ],
       "dependencies": [],
-      "version": "0.4.1"
+      "version": "0.5.0"
     }
   ],
   "total_role": {
